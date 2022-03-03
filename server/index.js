@@ -6,6 +6,7 @@ const { connect } = require("./config/database");
 
 const characters = require("./api/routes/characters.routes");
 const movies = require("./api/routes/movies.routes");
+const planets = require("./api/routes/planets.routes");
 
 const app = express();
 dotenv.config();
@@ -32,7 +33,7 @@ app.use(
 );
 
 app.all("/", (req, res) => {
-    res.send(`<h1>Welcome to @lethamburn Star Wars Server!</h1>
+  res.send(`<h1>Welcome to @lethamburn Star Wars Server!</h1>
     <br />
     <img src="https://i.pinimg.com/originals/5c/dc/c5/5cdcc57dac7d5becf47d6fa8eed7b66a.gif" alt="Star Wars gif" width="300px" />
     <br />
@@ -42,9 +43,10 @@ app.all("/", (req, res) => {
     <br />
     <a href="/movies">/movies</a>
    `);
-  });
+});
 app.use("/characters", characters);
-app.use("/movies", movies)
+app.use("/movies", movies);
+app.use("/planets", planets);
 
 app.disable("x-powered-by");
 

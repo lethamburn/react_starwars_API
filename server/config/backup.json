@@ -148,10 +148,37 @@
     },
     {
       "id": 10,
-      "name": "Rex",
-      "origin": "Kamino",
-      "role": "Clone Commander",
-      "image": "https://i.imgur.com/WecoiAb.png"
+      "name": "Padme Amidala",
+      "origin": "Naboo",
+      "role": "Queen",
+      "image": "https://i.imgur.com/TzO6Urh.jpg",
+      "family": [
+        {
+          "name": "Anakin Skywalker",
+          "member": "Husband"
+        },
+        {
+          "name": "Luke Skywalker",
+          "member": "Son"
+        },
+        {
+          "name": "Leia Organa",
+          "member": "Daughter"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Jabba the Hutt",
+      "origin": "Nal Hutta",
+      "role": "Gangster",
+      "image": "https://i.imgur.com/j3KISsl.jpg",
+      "family": [
+        {
+          "name": "Rotta",
+          "member": "Son"
+        }
+      ]
     }
   ],
   "movies": [
@@ -395,6 +422,17 @@
           "role": "Score"
         }
       ]
+    }
+  ],
+  "planets": [
+    {
+      "id": 1,
+      "name": "Coruscant",
+      "image": "https://i.imgur.com/DRb3fZT.png",
+      "suns": 1,
+      "region": "Outer Rim",
+      "size": 12240,
+      "coordinates": "0, 0, 0"
     }
   ]
 }
