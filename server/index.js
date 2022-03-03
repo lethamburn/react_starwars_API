@@ -39,13 +39,13 @@ app.all("/", (req, res) => {
     <br />
     <h2>Endpoints:</h2>
     
-    <h3>Characters</h3>
+    <h3>🧑‍🚀 Characters</h3>
     <a href="/characters">/characters</a>
     <br />
-    <h3>Movies</h3>
+    <h3>🎞️ Movies</h3>
     <a href="/movies">/movies</a>
     <br />
-    <h3>Planets</h3>
+    <h3>🌍 Planets</h3>
     <a href="/planets">/planets</a>
    `);
 });
