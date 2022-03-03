@@ -36,10 +36,10 @@ app.all("/", (req, res) => {
   res.send(`
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;700&display=swap" rel="stylesheet">
   <style>
   body {background-color: #231f20; text-align: center}
-  h1,h2,h3,h4,p, a   {color: #e5b13a; font-family: 'Lato', sans-serif;}
+  h1,h2,h3,h4,p, a   {color: #e5b13a; font-family: 'Barlow Condensed', sans-serif;}
   a{color: #688fb9}
   </style>
   <h1>Welcome to @lethamburn Star Wars Server!</h1>
