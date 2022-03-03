@@ -145,6 +145,13 @@
       "origin": "Kamino",
       "role": "Clone Commander",
       "image": "https://i.imgur.com/WecoiAb.png"
+    },
+    {
+      "id": 10,
+      "name": "Rex",
+      "origin": "Kamino",
+      "role": "Clone Commander",
+      "image": "https://i.imgur.com/WecoiAb.png"
     }
   ],
   "movies": [
