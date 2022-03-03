@@ -125,6 +125,26 @@
           "member": "Father"
         }
       ]
+    },
+    {
+      "id": 8,
+      "name": "Lando Calrissian",
+      "origin": "Socorro",
+      "role": "Entrepreneur",
+      "image": "https://i.imgur.com/CuBUeaZ.jpg",
+      "family": [
+        {
+          "name": "Unknown",
+          "member": "Daughter"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Rex",
+      "origin": "Kamino",
+      "role": "Clone Commander",
+      "image": "https://i.imgur.com/WecoiAb.png"
     }
   ],
   "movies": [
