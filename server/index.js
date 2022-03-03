@@ -36,26 +36,26 @@ app.all("/", (req, res) => {
   res.send(`
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;700&display=swap" rel="stylesheet">
   <style>
   body {background-color: #231f20; text-align: center}
-  h1,h2,h3,h4,p, a   {color: #e5b13a; font-family: 'Barlow Condensed', sans-serif;}
+  h1,h2,h3,h4,p, a   {color: #e5b13a; font-family: 'Chakra Petch', sans-serif;}
   a{color: #688fb9}
   </style>
   <h1>Welcome to @lethamburn Star Wars Server!</h1>
-    <br />
-    <img src="https://i.imgur.com/D25TOgW.png" alt="Star Wars gif" width="400px" />
-    <br />
-    <h2>Endpoints:</h2>
-    
-    <h3>Characters</h3>
-    <a href="/characters">/characters</a>
-    <br />
-    <h3>Movies</h3>
-    <a href="/movies">/movies</a>
-    <br />
-    <h3>Planets</h3>
-    <a href="/planets">/planets</a>
+  <br />
+  <img src="https://i.imgur.com/D25TOgW.png" alt="Star Wars gif" width="400px" />
+  <br />
+  <h2>Endpoints:</h2>
+
+  <h3>Characters</h3>
+  <a href="/characters">/characters</a>
+  <br />
+  <h3>Movies</h3>
+  <a href="/movies">/movies</a>
+  <br />
+  <h3>Planets</h3>
+  <a href="/planets">/planets</a>
    `);
 });
 app.use("/characters", characters);
