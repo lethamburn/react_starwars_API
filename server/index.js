@@ -1,5 +1,5 @@
 const express = require("express");
-const cors = require("cors");
+/* const cors = require("cors"); */
 const logger = require("morgan");
 const dotenv = require("dotenv");
 const { connect } = require("./config/database");
@@ -25,12 +25,12 @@ app.use((req, res, next) => {
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use(
+/* app.use(
   cors({
     origin: ["*"],
     credentials: true,
   })
-);
+); */
 
 app.all("/", (req, res) => {
   res.send(`
