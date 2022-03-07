@@ -1,5 +1,5 @@
 const express = require("express");
-/* const cors = require("cors"); */
+const cors = require("cors");
 const logger = require("morgan");
 const dotenv = require("dotenv");
 const { connect } = require("./config/database");
@@ -19,19 +19,17 @@ app.use((req, res, next) => {
   res.header("Access-Control-Allow-Methods", "GET,PUT,POST,DELETE");
   res.header("Access-Control-Allow-Credentials", true);
   res.header("Access-Control-Allow-Headers", "Content-Type");
-  re.header("Access-Control-Allow-Origin: *")
   next();
 });
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-/* app.use(
+app.use(
   cors({
-    origin: ["*"],
-    credentials: true,
+    origin: "*",
   })
-); */
+);
 
 app.all("/", (req, res) => {
   res.send(`
