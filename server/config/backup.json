@@ -179,6 +179,55 @@
           "member": "Son"
         }
       ]
+    },
+    {
+      "id": 12,
+      "name": "Kylo Ren",
+      "origin": "Chandrila",
+      "role": "Supreme Leader",
+      "image": "https://i.imgur.com/d9NFyUi.jpg",
+      "family": [
+        {
+          "name": "Leia Organa",
+          "member": "Mother"
+        },
+        {
+          "name": "Han Solo",
+          "member": "Father"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Din Djarin",
+      "origin": "Aq Vetina",
+      "role": "Mandalorian",
+      "image": "https://i.imgur.com/8aL3vba.jpg",
+      "family": []
+    },
+    {
+      "id": 14,
+      "name": "Grogu",
+      "origin": "Unknown",
+      "role": "Padawan",
+      "image": "https://i.imgur.com/h36dTXR.jpg",
+      "family": []
+    },
+    {
+      "id": 15,
+      "name": "Chewbacca",
+      "origin": "Kashyyyk",
+      "role": "Bounty Hunter",
+      "image": "https://i.imgur.com/jGFVPFG.jpg",
+      "family": []
+    },
+    {
+      "id": 16,
+      "name": "Darth Sidious",
+      "origin": "Naboo",
+      "role": "Sith Lord",
+      "image": "https://i.imgur.com/JVB2Ldk.jpg",
+      "family": []
     }
   ],
   "movies": [
@@ -430,9 +479,17 @@
       "name": "Coruscant",
       "image": "https://i.imgur.com/DRb3fZT.png",
       "suns": 1,
-      "region": "Outer Rim",
+      "region": "Core",
       "size": 12240,
       "coordinates": "0, 0, 0"
+    },
+    {
+      "id": 2,
+      "name": "Tatooine",
+      "image": "https://i.imgur.com/Mf7YdLO.jpg",
+      "suns": 2,
+      "region": "Outer Rim",
+      "size": 10465
     }
   ]
 }
