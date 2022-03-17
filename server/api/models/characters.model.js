@@ -4,12 +4,12 @@ const Schema = mongoose.Schema;
 
 const CharacterSchema = new Schema(
   {
-    id: { type: Number, require: true },
-    name: { type: String, require: true },
-    origin: { type: String, require: false },
-    role: { type: String, require: false },
-    image: { type: String, require: true },
-    family: { type: Array, require: false },
+    id: { type: Number, required: true },
+    name: { type: String, required: true },
+    origin: { type: String, required: false },
+    role: { type: String, required: false },
+    image: { type: String, required: true },
+    family: { type: Array, required: false },
   },
   { timestamps: true }
 );

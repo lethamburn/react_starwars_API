@@ -4,13 +4,13 @@ const Schema = mongoose.Schema;
 
 const PlanetsSchema = new Schema(
   {
-    id: { type: Number, require: true },
-    name: { type: String, require: true },
-    image: { type: String, require: true },
-    suns: { type: Number, require: false },
-    region: { type: String, require: false },
-    size: { type: Number, require: false },
-    coordinates: { type: String, require: false },
+    id: { type: Number, required: true },
+    name: { type: String, required: true },
+    image: { type: String, required: true },
+    suns: { type: Number, required: false },
+    region: { type: String, required: false },
+    size: { type: Number, required: false },
+    coordinates: { type: String, required: false },
   },
   { timestamps: true }
 );

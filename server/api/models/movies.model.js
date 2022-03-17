@@ -4,12 +4,12 @@ const Schema = mongoose.Schema;
 
 const MoviesSchema = new Schema(
   {
-    id: { type: Number, require: true },
-    name: { type: String, require: true },
-    year: { type: Number, require: true },
-    poster: { type: String, require: true },
-    crawl: { type: String, require: false },
-    filmMakers: { type: Array, require: false },
+    id: { type: Number, required: true },
+    name: { type: String, required: true },
+    year: { type: Number, required: true },
+    poster: { type: String, required: true },
+    crawl: { type: String, required: false },
+    filmMakers: { type: Array, required: false },
   },
   { timestamps: true }
 );
