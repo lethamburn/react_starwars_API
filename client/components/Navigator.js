@@ -4,14 +4,25 @@ import UINavigator from "../layout/UINavigator";
 const Navigator = () => {
   return (
     <UINavigator>
+      <Link href="/">
+        <a>
+          <h1>Star Wars</h1>
+        </a>
+      </Link>
       <Link href="/movies">
-        <a>Movies</a>
+        <a>
+          <h4>Movies</h4>
+        </a>
       </Link>
       <Link href="/characters">
-        <a>Characters</a>
+        <a>
+          <h4>Characters</h4>
+        </a>
       </Link>
       <Link href="/planets">
-        <a>Planets</a>
+        <a>
+          <h4>Planets</h4>
+        </a>
       </Link>
     </UINavigator>
   );

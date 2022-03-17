@@ -7,7 +7,7 @@ const Home = () => {
         <title>Star Wars</title>
         <link rel="icon" href="./images/icon.png" />
       </Head>
-      <h1>Star Wars</h1>
+      <h2>Home</h2>
     </div>
   );
 };

@@ -139,6 +139,19 @@ body{
 }
 }
 
+body::-webkit-scrollbar {
+  width: 12px;             
+}
+
+body::-webkit-scrollbar-track {
+  background:  #04070B;      
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color:#85ADBC ;        
+  border: 3px solid #85ADBC; 
+}
+
 h1{
   font-family: "Star Wars";
   color: #fc9d1b;
@@ -152,6 +165,7 @@ h3{
   word-spacing: 8px;
 };
 h4{
+  text-transform: uppercase;
   font-family: "Aurek";
   color: #fff;
   text-shadow:
@@ -163,10 +177,8 @@ h4{
       0 0 92px #538397,
       0 0 102px #538397,
       0 0 151px #538397;
-  transition: 1s;
   &:hover{
     font-family: "Anakin";  
-    cursor: crosshair;
   }
 }
 img {
@@ -195,15 +207,15 @@ function MyApp({ Component, pageProps }) {
     <>
       <GlobalStyle />
       <ThemeProvider theme={theme}>
-      <div id="space">
-        <div className="stars"></div>
-        <div className="stars"></div>
-        <div className="stars"></div>
-        <div className="stars"></div>
-        <div className="stars"></div>
-        <div className="stars"></div>
-        <div className="stars"></div>
-      </div>
+        <div id="space">
+          <div className="stars"></div>
+          <div className="stars"></div>
+          <div className="stars"></div>
+          <div className="stars"></div>
+          <div className="stars"></div>
+          <div className="stars"></div>
+          <div className="stars"></div>
+        </div>
         <Navigator />
         <Component {...pageProps} />
       </ThemeProvider>
