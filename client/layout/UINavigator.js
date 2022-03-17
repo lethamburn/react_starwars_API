@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Gallery = styled.div`
+const UINavigator = styled.nav`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -9,4 +9,4 @@ const Gallery = styled.div`
   text-align: center ;
 `;
 
-export default Gallery;
+export default UINavigator;

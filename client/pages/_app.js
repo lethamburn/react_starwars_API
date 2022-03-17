@@ -1,4 +1,5 @@
 import { createGlobalStyle, ThemeProvider } from "styled-components";
+import Navigator from "../components/Navigator";
 
 const GlobalStyle = createGlobalStyle`
 
@@ -68,6 +69,16 @@ h4{
 img {
    border: solid 4px white;
   }
+
+a{
+  font-family: "Episode";
+      text-decoration: none;
+      color: #fc9d1b;
+
+      &:hover{
+        color: #f4500a;
+      }
+ }
 `;
 
 const theme = {
@@ -81,6 +92,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <GlobalStyle />
       <ThemeProvider theme={theme}>
+        <Navigator />
         <Component {...pageProps} />
       </ThemeProvider>
     </>

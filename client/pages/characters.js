@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import Gallery from "../layout/Gallery";
+import UIGallery from "../layout/UIGallery";
 
 const characters = ({ characters }) => {
   return (
@@ -10,7 +10,7 @@ const characters = ({ characters }) => {
         <link rel="icon" href="./images/icon.png" />
       </Head>
       <h2>Characters</h2>
-      <Gallery>
+      <UIGallery>
       {!characters ? (
         <>
           <p>Cargando...</p>
@@ -27,7 +27,7 @@ const characters = ({ characters }) => {
           })}
         </>
       )}
-      </Gallery>
+      </UIGallery>
     </div>
   );
 };
