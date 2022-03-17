@@ -1,9 +1,6 @@
 import Head from "next/head";
 
-const Home = ({characters, movies, planets}) => {
-  console.log(characters.data);
-  console.log(movies.data);
-  console.log(planets.data);
+const Home = () => {
   return (
     <div>
       <div className="main"></div>
@@ -17,39 +14,3 @@ const Home = ({characters, movies, planets}) => {
 };
 
 export default Home;
-
-export async function getStaticPropsCharacters() {
-
-  const resCharacters = await fetch('https://starwars-server.vercel.app/characters')
-  const characters = await resCharacters.json();
-
-  return {
-    props: {
-      characters
-    },
-  }
-}
-
-export async function getStaticPropsMovies() {
-
-  const resMovies = await fetch('https://starwars-server.vercel.app/movies')
-  const movies = await resMovies.json();
-
-  return {
-    props: {
-      movies
-    },
-  }
-}
-
-export async function getStaticPropsPlanets() {
-
-  const resPlanets = await fetch('https://starwars-server.vercel.app/planets')
-  const planets = await resPlanets.json();
-
-  return {
-    props: {
-      planets
-    },
-  }
-}

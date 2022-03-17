@@ -19,7 +19,8 @@
           "name": "Leia Organa",
           "member": "Sister"
         }
-      ]
+      ],
+      "description": "Luke Skywalker, a Force-sensitive human male, was a legendary Jedi Master who fought in the Galactic Civil War during the reign of the Galactic Empire. Along with his companions, Princess Leia Organa and General Han Solo, Skywalker served as a revolutionary on the side of the Alliance to Restore the Republic—an organization committed to the downfall of the Galactic Empire and the restoration of democracy. Following the war, Skywalker became a living legend, and was remembered as one of the greatest Jedi in galactic history."
     },
     {
       "id": 2,
@@ -48,7 +49,8 @@
           "name": "Ben Solo",
           "member": "Son"
         }
-      ]
+      ],
+      "description": "Leia Skywalker Organa Solo was a Force-sensitive human female political and military leader who served in the Alliance to Restore the Republic during the Imperial Era and the New Republic and Resistance in the subsequent New Republic Era. Adopted into the House of Organa, the Alderaanian royal family, she was Princess Leia Organa of Alderaan, a planet in the Core Worlds known for its dedication to pacifism. The princess was raised as the daughter of Senator Bail Prestor Organa and his wife, Queen Breha Organa, making her the heir to the Alderaanian monarchy. Instilled with the values of her adopted homeworld, Organa devoted her life to the restoration of democracy by opposing authoritarian regimes such as the Galactic Empire and the First Order."
     },
     {
       "id": 3,
@@ -65,7 +67,8 @@
           "name": "Ben Solo",
           "member": "Son"
         }
-      ]
+      ],
+      "description": "Han Solo, known only as Han until being given the surname Solo by an Imperial recruitment officer, and formerly known as Cadet 124-329 while serving as an Imperial cadet, was a human male smuggler. He became a leader in the Alliance to Restore the Republic and an instrumental figure in the defeat of the Galactic Empire during the Galactic Civil War. He hailed from Corellia and became a smuggler, even completing the Kessel Run in just twelve parsecs with his prized ship, the Millennium Falcon, and coming under the employ of Jabba the Hutt. He was the son-in-law of fallen Jedi Knight Anakin Skywalker and Senator Padmé Amidala, husband of Princess Leia Organa, brother-in-law of Jedi Master Luke Skywalker, father of Ben Solo, rivals and close friends with fellow smuggler Lando Calrissian, and best friends with the Wookiee Chewbacca, his trusted copilot who swore a life debt to the Corellian smuggler."
     },
     {
       "id": 4,
@@ -90,28 +93,32 @@
           "name": "Leia Organa",
           "member": "Daughter"
         }
-      ]
+      ],
+      "description": "Anakin Skywalker was a legendary Force-sensitive human male who was a Jedi Knight of the Galactic Republic and the prophesied Chosen One of the Jedi Order, destined to bring balance to the Force. Also known as 'Ani' during his childhood, Skywalker earned the moniker 'Hero With No Fear' from his accomplishments in the Clone Wars. His alter ego, Darth Vader, the Dark Lord of the Sith, was created when Skywalker turned to the dark side of the Force, pledging his allegiance to the Sith Lord Darth Sidious at the end of the Republic Era."
     },
     {
       "id": 5,
       "name": "Obi-Wan Kenobi",
       "origin": "Stewjon",
       "role": "Jedi Knight",
-      "image": "https://i.imgur.com/EB7kpP4.jpg"
+      "image": "https://i.imgur.com/EB7kpP4.jpg",
+      "description": "Obi-Wan Kenobi, also known as Ben Kenobi, was a legendary human male Jedi Master who served on the Jedi High Council during the final years of the Republic Era. As a Jedi General, Kenobi served in the Grand Army of the Republic that fought against the Separatist Droid Army during the Clone Wars. Kenobi, however, was forced into exile as a result of the Great Jedi Purge. As a mentor, Kenobi was responsible for training two members of the Skywalker family, Anakin Skywalker and Luke Skywalker, both of whom served in turn as his Padawan in the ways of the Force."
     },
     {
       "id": 6,
       "name": "Ahsoka Tano",
       "origin": "Shili",
       "role": "Jedi",
-      "image": "https://i.imgur.com/GNf9Hrg.jpg"
+      "image": "https://i.imgur.com/GNf9Hrg.jpg",
+      "description": "Ahsoka Tano was a Force-sensitive Togruta female former Jedi Padawan who, after the Clone Wars, helped establish a network of various rebel cells against the Galactic Empire. Tano was discovered on her homeworld of Shili by Jedi Master Plo Koon, who brought her to the Jedi Temple on Coruscant to receive Jedi training. Following the outbreak of the Clone Wars, Jedi Grand Master Yoda assigned the young Tano to be the Padawan learner of Jedi Knight Anakin Skywalker, who nicknamed her 'Snips' when she joined him at the Battle of Christophsis. Whereas Tano was eager to prove herself, Skywalker had a reputation for recklessness, and they had a rather difficult start as master and apprentice. Yet they worked together to rescue Rotta, the son of crime lord Jabba Desilijic Tiure, and returned Rotta to his father, thus facilitating a crucial alliance between the Hutt Clan and the Galactic Republic."
     },
     {
       "id": 6,
       "name": "Qui-Gon Jinn",
       "origin": "Coruscant",
       "role": "Jedi Knight",
-      "image": "https://i.imgur.com/D67aPIi.jpg"
+      "image": "https://i.imgur.com/D67aPIi.jpg",
+      "description": "Qui-Gon Jinn, a Force-sensitive human male, was a venerable if maverick Jedi Master who lived during the last years of the Republic Era. He was a wise and well-respected member of the Jedi Order, and was offered a seat on the Jedi Council, but chose to reject and follow his own path. Adhering to a philosophy centered around the Living Force, Jinn strove to follow the will of the Force even when his actions conflicted with the wishes of the High Council. After encountering Anakin Skywalker, Jinn brought him to the Jedi Temple on Coruscant, convinced he had found the Chosen One. His dying wish was for Skywalker to become a Jedi and ultimately restore balance to the Force."
     },
     {
       "id": 7,
@@ -124,7 +131,8 @@
           "name": "Jango Fett",
           "member": "Father"
         }
-      ]
+      ],
+      "description": "Boba Fett was a human male crime lord and former bounty hunter whose career spanned decades, from the fall of the Galactic Republic to the end of the rule of the Galactic Empire. Originally code-named Alpha, he was an unaltered clone of the famed Mandalorian bounty hunter Jango Fett who raised the boy as his son. Boba emulated his father and genetic donor by wearing a customized suit of Mandalorian armor. His personal starship was the Slave I, a Firespray-31-class patrol and attack craft that once belonged to Jango. Trained in combat and martial skills from a young age, Fett was one of the most feared bounty hunters in the galaxy during the reign of Emperor Palpatine. He became a legend over the course of his career, which included contracts for both the Empire and the extensive criminal underworld. After living among the Tusken Raiders of Tatooine for a time, he took over as Daimyo of Mos Espa during the era of the New Republic."
     },
     {
       "id": 8,
@@ -137,14 +145,16 @@
           "name": "Unknown",
           "member": "Daughter"
         }
-      ]
+      ],
+      "description": "Landonis Balthazar 'Lando' Calrissian, was a human male smuggler, gambler, entrepreneur, and card player who became Baron Administrator of Cloud City and, later, a general in the Rebel Alliance. Born on Socorro, he was the owner of the Millennium Falcon before losing it to Han Solo in a game of sabacc on Numidian Prime. After losing the Falcon, Calrissian put an end to his days as a smuggler and became an entrepreneur, setting up a small mining operation on the planet Lothal before eventually becoming the leader of Cloud City in the skies of the planet Bespin."
     },
     {
       "id": 9,
       "name": "Rex",
       "origin": "Kamino",
       "role": "Clone Commander",
-      "image": "https://i.imgur.com/WecoiAb.png"
+      "image": "https://i.imgur.com/WecoiAb.png",
+      "description": "Rex, formerly designated CT-7567, was a veteran Clone Captain, Clone Commander, and Advanced Recon Commando who commanded the Grand Army of the Republic's famed 501st Legion of clone troopers during the Clone Wars. Rex later served as a captain and commander within the Alliance to Restore the Republic during the Galactic Civil War. Rex participated in many battles over the course of the Clone Wars. As the captain of the 501st, Rex served as second-in-command to Jedi General Anakin Skywalker, whose bravery and unconventionality in battle he came to share. In addition to being a close friend of Skywalker, he also became friends with Skywalker's apprentice, Ahsoka Tano. He was close with Marshal Commander Cody, with their relationship mirroring that of their respective Jedi Generals, Skywalker and Obi-Wan Kenobi, whom Rex was also well acquainted with. Rex and his companions often worked together during the front-line campaigns against the Confederacy of Independent Systems."
     },
     {
       "id": 10,
@@ -165,7 +175,8 @@
           "name": "Leia Organa",
           "member": "Daughter"
         }
-      ]
+      ],
+      "description": "Padmé Amidala Naberrie was a human female senator who represented the people of Naboo during the final years of the Galactic Republic. Prior to her career in the Galactic Senate, Amidala was the elected ruler of the Royal House of Naboo. A political idealist, she advocated for the preservation of democracy as well as a peaceful resolution to the Clone Wars. However, her secret marriage to the Jedi Knight Anakin Skywalker would have a lasting effect on the future of the galaxy for decades to come."
     },
     {
       "id": 11,
@@ -178,7 +189,8 @@
           "name": "Rotta",
           "member": "Son"
         }
-      ]
+      ],
+      "description": "Jabba Desilijic Tiure, more commonly referred to as Jabba the Hutt or simply Jabba, and formally styled as His Excellency Jabba Desilijic Tiure of Nal Hutta, Eminence of Tatooine, was a Hutt gangster and crime lord, as well as a leading member of the Grand Hutt Council and influential leader of the Hutt Clan, who operated and led a criminal empire from his palace on the Outer Rim world of Tatooine. Jabba was a major figure on Tatooine, where he controlled the bulk of the piracy, slavery, and trafficking in illegal goods that generated most of the planet's wealth. He was also highly influential in the entire Outer Rim as one of its most powerful crime lords."
     },
     {
       "id": 12,
@@ -195,7 +207,8 @@
           "name": "Han Solo",
           "member": "Father"
         }
-      ]
+      ],
+      "description": "Ben Solo was a human male Force-sensitive who fell to the dark side of the Force as Kylo Ren, master of the Knights of Ren and eventual Supreme Leader of the First Order, but returned to the light side shortly before his death. He was born at the end of the Galactic Civil War in 5 ABY, when the Galactic Empire surrendered to the New Republic. His parents, General Han Solo and Princess Leia Organa, were considered great heroes of the Alliance to Restore the Republic, as was his maternal uncle, Jedi Master Luke Skywalker. The heir to the Skywalker bloodline, Ben Solo possessed raw strength in the Force and had the potential for limitless power. His grandfather, Anakin Skywalker, had become the Sith Lord Darth Vader through the machinations of Darth Sidious, the Dark Lord of the Sith. The phantom Sidious similarly targeted Solo and used his creation, Supreme Leader Snoke, to groom Solo from an early age to doubt his family and eventually turn to the dark side."
     },
     {
       "id": 13,
@@ -203,7 +216,8 @@
       "origin": "Aq Vetina",
       "role": "Mandalorian",
       "image": "https://i.imgur.com/8aL3vba.jpg",
-      "family": []
+      "family": [],
+      "description": "Din Djarin, also known as 'the Mandalorian' or simply 'Mando', was a human male Mandalorian warrior during the era of the New Republic. With his Mandalorian armor, IB-94 blaster pistol, Amban sniper rifle, and distinctive beskar helmet, Djarin was both well-equipped and enigmatic—a stranger whose past was shrouded in mystery to others. He hailed from Aq Vetina and became orphaned during the end of the Galactic Republic, and was raised as a foundling by the Children of the Watch, an orthodox cult that had broken off from mainstream Mandalorian society. Djarin was unaware of this and believed that all Mandalorians followed the Children of the Watch's beliefs. He was trained to become a Mandalorian warrior and eventually joined the Tribe, which operated in a secret covert on Nevarro. Djarin became battle-hardened, a man of few words, and a formidable hunter in an increasingly dangerous galaxy."
     },
     {
       "id": 14,
@@ -211,7 +225,8 @@
       "origin": "Unknown",
       "role": "Padawan",
       "image": "https://i.imgur.com/h36dTXR.jpg",
-      "family": []
+      "family": [],
+      "description": "Grogu, known to many simply as 'The Child', was a male Force-sensitive Jedi Initiate and Mandalorian foundling who belonged to the same species as Jedi Grand Master Yoda and Jedi Master Yaddle. Grogu was born in the year 41 BBY, and was raised at the Jedi Temple on Coruscant. Grogu was eventually held at a hideout run by Nikto mercenaries on Arvala-7 during the New Republic Era, having survived the siege of the Jedi Temple decades prior. While still an infant at the age of fifty years, he was sought, on behalf of Moff Gideon, by an Imperial who hired Mandalorian bounty hunter Din Djarin to retrieve him."
     },
     {
       "id": 15,
@@ -219,7 +234,8 @@
       "origin": "Kashyyyk",
       "role": "Bounty Hunter",
       "image": "https://i.imgur.com/jGFVPFG.jpg",
-      "family": []
+      "family": [],
+      "description": "Chewbacca, known affectionately to his friends as Chewie, was a Wookiee male warrior, smuggler, mechanic, pilot, and resistance fighter who fought in the Clone Wars, the Galactic Civil War, and the Cold War and subsequent First Order-Resistance War. He hailed from the planet Kashyyyk and became a Wookiee military leader. During the Clone Wars, he was captured by Trandoshan slavers and held captive on Wasskah, but he worked with a fellow captive, Jedi Commander Ahsoka Tano, to escape. He later commanded Wookiee forces of the Kachirho Wookiee Militia during the Battle of Kashyyyk alongside the Grand Army of the Republic, led by Jedi General Yoda. During the battle, one of the last ones of the war, Yoda's clone troopers received Order 66 from Supreme Chancellor Palpatine and, with the help of Chewbacca and his fellow Wookiee Chieftain and General Tarfful, Yoda escaped Kashyyyk and the destruction of the Jedi Order."
     },
     {
       "id": 16,
@@ -227,7 +243,8 @@
       "origin": "Naboo",
       "role": "Sith Lord",
       "image": "https://i.imgur.com/JVB2Ldk.jpg",
-      "family": []
+      "family": [],
+      "description": "Darth Sidious, born Sheev Palpatine and also known simply as the Emperor, was a Force-sensitive human male Dark Lord of the Sith and Emperor of the Galactic Empire, ruling from 19 BBY to 4 ABY. Rising to power in the Galactic Senate as the senator of Naboo, the secretive Sith Lord cultivated two identities, Sidious and Palpatine, using both to further his political career. He orchestrated the fall of the Galactic Republic and the Jedi Order through the Clone Wars, and then established his reign over the galaxy which lasted until his death at the Battle of Endor. However, the dark side of the Force gave rise to powers which allowed the Emperor to return from the grave."
     }
   ],
   "movies": [
