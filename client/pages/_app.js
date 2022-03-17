@@ -196,13 +196,13 @@ function MyApp({ Component, pageProps }) {
       <GlobalStyle />
       <ThemeProvider theme={theme}>
       <div id="space">
-        <div class="stars"></div>
-        <div class="stars"></div>
-        <div class="stars"></div>
-        <div class="stars"></div>
-        <div class="stars"></div>
-        <div class="stars"></div>
-        <div class="stars"></div>
+        <div className="stars"></div>
+        <div className="stars"></div>
+        <div className="stars"></div>
+        <div className="stars"></div>
+        <div className="stars"></div>
+        <div className="stars"></div>
+        <div className="stars"></div>
       </div>
         <Navigator />
         <Component {...pageProps} />
