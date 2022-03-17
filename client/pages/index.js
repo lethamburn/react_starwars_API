@@ -1,7 +1,9 @@
 import Head from "next/head";
 
 const Home = ({characters, movies, planets}) => {
-  
+  console.log(characters.data);
+  console.log(movies.data);
+  console.log(planets.data);
   return (
     <div>
       <div className="main"></div>
