@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Gallery from "../layout/Gallery";
 
 const characters = ({ characters }) => {
   return (
@@ -9,23 +10,24 @@ const characters = ({ characters }) => {
         <link rel="icon" href="./images/icon.png" />
       </Head>
       <h2>Characters</h2>
+      <Gallery>
       {!characters ? (
         <>
           <p>Cargando...</p>
         </>
       ) : (
         <>
-          <h3>Personaje</h3>
           {characters.data.characters.map((character) => {
             return (
               <figure key={JSON.stringify(character)}>
                 <h3>{character.name}</h3>
-                <img src={character.image} alt={character.name} width="200px" />
+                <img className="portrait" src={character.image} alt={character.name} width="200px" />
               </figure>
             );
           })}
         </>
       )}
+      </Gallery>
     </div>
   );
 };

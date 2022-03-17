@@ -44,7 +44,8 @@ h2{
   color: #f4500a;
 }
 h3{
-  font-family: "Episode"
+  font-family: "Episode";
+  word-spacing: 8px;
 };
 h4{
   font-family: "Aurek";
@@ -64,6 +65,9 @@ h4{
     cursor: crosshair;
   }
 }
+img {
+   border: solid 4px white;
+  }
 `;
 
 const theme = {
