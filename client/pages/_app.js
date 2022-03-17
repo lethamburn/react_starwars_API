@@ -33,7 +33,7 @@ body{
   font-family: "Anakin";
   color: #e6e8e9;
   #space {
-  background: #202020;
+  background: black;
   width: 100%;
   height: 100%;
   -webkit-animation-name: starField;
@@ -182,8 +182,10 @@ h4{
   }
 }
 img {
-   border: solid 4px white;
-  }
+  border: 8px solid #e6e8e9;
+  border-style: double;
+  
+}
 
 a{
   font-family: "Episode";
@@ -193,6 +195,11 @@ a{
       &:hover{
         color: #f4500a;
       }
+ }
+ .planet{
+   border-radius: 50%;
+   border: none;
+  border-style: none;
  }
 `;
 

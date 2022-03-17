@@ -20,7 +20,7 @@ const planets = ({ planets }) => {
                 <figure key={JSON.stringify(planet)}>
                   <h3>{planet.name}</h3>
                   <img
-                    className="portrait"
+                    className="planet"
                     src={planet.image}
                     alt={planet.name}
                     width="200px"
