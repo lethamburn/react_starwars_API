@@ -170,6 +170,34 @@ h3{
   word-spacing: 8px;
 };
 h4{
+  transition: 1.5s;
+  text-transform: uppercase;
+  font-family: "Anakin";
+  color: #fff;
+  text-shadow:
+      0 0 7px #538397,
+      0 0 10px #538397,
+      0 0 21px #538397,
+      0 0 42px #538397,
+      0 0 82px #538397,
+      0 0 92px #538397,
+      0 0 102px #538397,
+      0 0 151px #538397;
+
+      &:hover{
+        text-shadow:
+      0 0 7px whitesmoke,
+      0 0 10px whitesmoke,
+      0 0 21px whitesmoke,
+      0 0 42px whitesmoke,
+      0 0 82px whitesmoke,
+      0 0 92px whitesmoke,
+      0 0 102px whitesmoke,
+      0 0 151px whitesmoke;
+      }
+}
+h5{
+  transition: 1.5s;
   text-transform: uppercase;
   font-family: "Aurek";
   color: #fff;
@@ -182,9 +210,18 @@ h4{
       0 0 92px #538397,
       0 0 102px #538397,
       0 0 151px #538397;
-  &:hover{
-    font-family: "Anakin";  
-  }
+
+      &:hover{
+        text-shadow:
+      0 0 7px whitesmoke,
+      0 0 10px whitesmoke,
+      0 0 21px whitesmoke,
+      0 0 42px whitesmoke,
+      0 0 82px whitesmoke,
+      0 0 92px whitesmoke,
+      0 0 102px whitesmoke,
+      0 0 151px whitesmoke;
+      }
 }
 img {
   border: 8px solid #e6e8e9;
