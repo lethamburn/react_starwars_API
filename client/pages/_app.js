@@ -5,18 +5,22 @@ const GlobalStyle = createGlobalStyle`
 
 @font-face {
       font-family: "Anakin";
+      font-display: block;
       src: url("./fonts/anakin.ttf");
     };
 @font-face {
       font-family: "Star Wars";
+      font-display: block;
       src: url("./fonts/starwars.ttf");
     };
 @font-face {
       font-family: "Episode";
+      font-display: block;
       src: url("./fonts/episode.ttf");
     };
 @font-face {
       font-family: "Aurek";
+      font-display: block;
       src: url("./fonts/aurek.ttf");
     };
 
