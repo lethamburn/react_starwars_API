@@ -25,11 +25,6 @@ const GlobalStyle = createGlobalStyle`
       font-display: block;
       src: url("./fonts/aurek.ttf");
     };
-@font-face {
-      font-family: "LongTime";
-      font-display: block;
-      src: url("./fonts/longtime.ttf");
-    };
 
 html{
   margin:0 auto;

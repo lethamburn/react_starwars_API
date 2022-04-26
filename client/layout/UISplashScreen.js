@@ -1,6 +1,12 @@
 import styled from "styled-components";
 
 const UISplashScreen = styled.div`
+  @font-face {
+    font-family: "LongTime";
+    font-display: block;
+    src: url("./fonts/longtime.ttf");
+  }
+
   @keyframes fadeIn {
     0% {
       opacity: 0;
