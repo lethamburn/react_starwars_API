@@ -262,7 +262,7 @@ function MyApp({ Component, pageProps }) {
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setLoaded(true), 4000);
+    setTimeout(() => setLoaded(true), 5000);
   }, []);
 
   return (

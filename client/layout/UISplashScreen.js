@@ -19,7 +19,13 @@ const UISplashScreen = styled.div`
     }
   }
 
-  animation: fadeIn ease 4s;
+  .fadeIn {
+    animation: fadeIn ease 3s;
+  }
+
+  .fadeOut {
+    animation: fadeOut ease 3s;
+  }
 
   height: 100vh;
   display: flex;
@@ -31,12 +37,12 @@ const UISplashScreen = styled.div`
     font-family: "LongTime", sans-serif;
     color: #13e6f0;
     text-align: left;
-    line-height: 30px; 
-    letter-spacing: 2px;  
-    font-weight: 1 ;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-weight: 1;
     @media (min-width: 600px) {
-        font-size: 50px;
-        line-height: 60px;
+      font-size: 50px;
+      line-height: 60px;
     }
   }
 `;

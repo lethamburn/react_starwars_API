@@ -61,6 +61,9 @@ app.all("/", (req, res) => {
   <br />
   <h3>Planets</h3>
   <a href="/planets">/planets</a>
+
+  <h3>Demo</h3>
+  <a href="https://starwarsapi-six.vercel.app/">https://starwarsapi-six.vercel.app/</a>
    `);
 });
 app.use("/characters", characters);
