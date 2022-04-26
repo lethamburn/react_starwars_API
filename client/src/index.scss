@@ -1,0 +1,58 @@
+//RESET
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+//FONT FACE
+
+@font-face {
+  font-family: "Anakin";
+  font-display: block;
+  src: url("../public/fonts/anakin.ttf");
+}
+@font-face {
+  font-family: "Star Wars";
+  font-display: block;
+  src: url("../public/fonts/starwars.ttf");
+}
+@font-face {
+  font-family: "Episode";
+  font-display: block;
+  src: url("../public/fonts/episode.ttf");
+}
+@font-face {
+  font-family: "Aurek";
+  font-display: block;
+  src: url("../public/fonts/aurek.ttf");
+}
+
+//GLOBAL STYLES
+body {
+  color: #e6e8e9;
+
+  // SCROLLBAR
+  body::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  body::-webkit-scrollbar-track {
+    background: #04070b;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #85adbc;
+    border: 3px solid #85adbc;
+  }
+}
