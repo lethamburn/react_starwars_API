@@ -1,5 +1,7 @@
 import { createGlobalStyle, ThemeProvider } from "styled-components";
+import { useState, useEffect } from "react";
 import Navigator from "../components/Navigator";
+import SplashScreen from "../components/SplashScreen";
 
 const GlobalStyle = createGlobalStyle`
 
@@ -22,6 +24,11 @@ const GlobalStyle = createGlobalStyle`
       font-family: "Aurek";
       font-display: block;
       src: url("./fonts/aurek.ttf");
+    };
+@font-face {
+      font-family: "LongTime";
+      font-display: block;
+      src: url("./fonts/longtime.ttf");
     };
 
 html{
@@ -252,6 +259,12 @@ const theme = {
 };
 
 function MyApp({ Component, pageProps }) {
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => setLoaded(true), 4000);
+  }, []);
+
   return (
     <>
       <GlobalStyle />
@@ -265,8 +278,14 @@ function MyApp({ Component, pageProps }) {
           <div className="stars"></div>
           <div className="stars"></div>
         </div>
-        <Navigator />
-        <Component {...pageProps} />
+        {loaded ? (
+          <>
+            <Navigator />
+            <Component {...pageProps} />
+          </>
+        ) : (
+          <SplashScreen />
+        )}
       </ThemeProvider>
     </>
   );
