@@ -16,7 +16,7 @@
 </g>
 <g id="Falcon">
 	
-		<line fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="33.163" y1="45.839" x2="15.75" y2="28.427"/>
+		<line fill="red" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="33.163" y1="45.839" x2="15.75" y2="28.427"/>
 	
 		<line fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="40.877" y1="39.411" x2="22.987" y2="21.521"/>
 	<g>
