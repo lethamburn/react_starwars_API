@@ -6,16 +6,42 @@
   background-color: transparent;
   padding-block: 15px;
   backdrop-filter: blur(3px);
--webkit-backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
 }
 .logo {
   margin-left: 20px;
+  cursor: pointer;
+  img {
+    width: 30px;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
 }
 .list {
   display: flex;
   gap: 30px;
   margin-right: 20px;
   margin-top: 10px;
+  font-family: "Aurek";
+
+  a{
+    color: var(--border-color);
+    transition: 0.5s;
+    &:hover{
+      color: var(--text-color);
+    }
+  }
+
+  img {
+    width: 30px;
+    padding-right: 5px;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
 }
 #toggler,
 .navbar label {
