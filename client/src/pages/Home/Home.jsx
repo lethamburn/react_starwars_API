@@ -1,8 +1,9 @@
 import React from "react";
+import { Fade } from "react-awesome-reveal";
 import "./Home.scss";
 const Home = () => {
   return (
-    <div>
+    <Fade triggerOnce delay={1000}>
       <section className="showcase">
         <video src="./images/video.mp4" autoPlay loop muted></video>
         <h1 className="title">STAR WARS</h1>
@@ -20,7 +21,7 @@ const Home = () => {
           </p>
         </section>
       </div>
-    </div>
+    </Fade>
   );
 };
 
