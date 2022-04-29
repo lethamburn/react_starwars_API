@@ -3,13 +3,14 @@ import { Fade } from "react-awesome-reveal";
 import "./Home.scss";
 const Home = () => {
   return (
-    <Fade triggerOnce delay={1000}>
+    
       <section className="showcase">
         <video src="./images/video.mp4" autoPlay loop muted></video>
         <h1 className="title">STAR WARS</h1>
       </section>
       <div className="hero-container">
         <section className="hero">
+        <Fade triggerOnce delay={1000}>
           <p>
             <strong>Hello there!</strong>
             <br /> This web application is the front end of the server
@@ -19,9 +20,10 @@ const Home = () => {
             Feel free to search and share suggestions with me to improve the
             information currently in the database.
           </p>
+          </Fade>
         </section>
       </div>
-    </Fade>
+    
   );
 };
 
