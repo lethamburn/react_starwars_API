@@ -11,14 +11,21 @@ li {
   list-style-type: none;
 }
 
-a {
+a{
   text-decoration: none;
+  color: inherit
 }
 
-
+// PALETTE
+:root{
+  --bg-color: #222d2e;
+  --text-color: #d0ddd0;
+  --border-color: #5e8898;
+  --highlight-light: #c2301e;
+  --highlight-dark: #641d14;
+}
 
 //FONT FACE
-
 @font-face {
   font-family: "Anakin";
   font-display: block;
@@ -48,7 +55,7 @@ a {
 
 //GLOBAL STYLES
 body {
-  color: #e6e8e9;
+  color: var(--text-color);
 
   // SCROLLBAR
   body::-webkit-scrollbar {
@@ -56,11 +63,11 @@ body {
   }
 
   body::-webkit-scrollbar-track {
-    background: #04070b;
+    background: var(--bg-color);
   }
 
   body::-webkit-scrollbar-thumb {
-    background-color: #85adbc;
-    border: 3px solid #85adbc;
+    background-color: var(border-color);
+    border: 3px solid var(border-color);
   }
 }
