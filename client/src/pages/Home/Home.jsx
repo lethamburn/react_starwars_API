@@ -9,8 +9,8 @@ const Home = () => {
         <h1 className="title">STAR WARS</h1>
       </section>
       <div className="hero-container">
+      <Fade triggerOnce delay={1000}>
         <section className="hero">
-        <Fade triggerOnce delay={1000}>
           <p>
             <strong>Hello there!</strong>
             <br /> This web application is the front end of the server
@@ -20,8 +20,8 @@ const Home = () => {
             Feel free to search and share suggestions with me to improve the
             information currently in the database.
           </p>
-          </Fade>
         </section>
+          </Fade>
       </div>
       </>
   );
