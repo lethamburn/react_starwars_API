@@ -26,10 +26,10 @@
   margin-top: 10px;
   font-family: "Aurek";
 
-  a{
+  a {
     color: var(--border-color);
     transition: 0.5s;
-    &:hover{
+    &:hover {
       color: var(--text-color);
     }
   }

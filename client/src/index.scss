@@ -27,9 +27,9 @@ a {
 
 //FONT FACE
 @font-face {
-  font-family: "Anakin";
+  font-family: "Proxima";
   font-display: block;
-  src: url("../public/fonts/anakin.ttf");
+  src: url("../public/fonts/proxima.otf");
 }
 @font-face {
   font-family: "Star Wars";
@@ -56,7 +56,7 @@ a {
 //GLOBAL STYLES
 body {
   color: var(--text-color);
-
+  font-family: "Proxima";
   // SCROLLBAR
   body::-webkit-scrollbar {
     width: 12px;
@@ -70,4 +70,8 @@ body {
     background-color: var(border-color);
     border: 3px solid var(border-color);
   }
+}
+
+strong{
+  color: var(--highlight-light)
 }
