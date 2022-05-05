@@ -12,7 +12,7 @@
   margin-left: 20px;
   cursor: pointer;
   img {
-    width: 80px;
+    width: 90px;
     transition: all 0.2s ease-in-out;
     &:hover {
       transform: scale(1.1);
@@ -31,15 +31,6 @@
     transition: 0.5s;
     &:hover {
       color: var(--text-color);
-    }
-  }
-
-  img {
-    width: 30px;
-    padding-right: 5px;
-    transition: all 0.2s ease-in-out;
-    &:hover {
-      transform: scale(1.1);
     }
   }
 }
@@ -62,7 +53,8 @@
     display: inline-flex;
     align-items: center;
     cursor: pointer;
-    margin-right: 20px;
+    margin-right: 40px;
+    transform: scale(1.8);
   }
   #toggler:checked ~ .menu {
     max-height: 100%;
