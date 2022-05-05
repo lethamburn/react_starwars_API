@@ -1,13 +1,17 @@
 import React from "react";
-import { Fade } from "react-awesome-reveal";
+import { Fade} from "react-awesome-reveal";
 import "./Home.scss";
+
 const Home = () => {
+  
   return (
-    <>
-      <section className="showcase">
-        <video src="./images/video.mp4" autoPlay loop muted></video>
-        <h1 className="title">STAR WARS</h1>
-      </section>
+    <main className="home">
+      <Fade delay={1500} triggerOnce>
+        <section className="showcase">
+          <video src="./images/video.mp4" autoPlay loop muted></video>
+          <h1 className="title">STAR WARS</h1>
+        </section>
+      </Fade>
       <Fade triggerOnce delay={1000}>
         <div className="hero-container">
           <section className="hero">
@@ -24,7 +28,7 @@ const Home = () => {
           </section>
         </div>
       </Fade>
-    </>
+    </main>
   );
 };
 

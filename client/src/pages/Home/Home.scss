@@ -1,8 +1,17 @@
+.home{
+  height:80vh;
+  width: 100vw;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+}
+
 .showcase {
   margin-top: 10px;
   position: relative;
   text-align: center;
-  width: 100%;
+  width: 99%;
 }
 
 .showcase video {
@@ -33,9 +42,9 @@
 }
 .hero {
   margin-top: 4rem;
-  border: 4px solid var(--crawl-color);
-  width: 40%;
-  clip-path: polygon(0% 0%, 75% 0%, 100% 24%, 100% 100%, 0% 100%);
+  border: 3px solid var(--crawl-color);
+  width: 30%;
+  border-radius: 3px;
 
   @media screen and (max-width: 600px) {
     width: 80%;
