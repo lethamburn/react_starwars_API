@@ -23,13 +23,14 @@ a {
   --border-color: #5e8898;
   --highlight-light: #c2301e;
   --highlight-dark: #641d14;
+  --crawl-color: #f4ad0b;
 }
 
 //FONT FACE
 @font-face {
-  font-family: "Proxima";
+  font-family: "Futura";
   font-display: block;
-  src: url("../public/fonts/proxima.otf");
+  src: url("../public/fonts/futura.ttf");
 }
 @font-face {
   font-family: "Star Wars";
@@ -56,7 +57,7 @@ a {
 //GLOBAL STYLES
 body {
   color: var(--text-color);
-  font-family: "Proxima";
+  font-family: "Futura";
 }
 
 // SCROLLBAR
@@ -74,5 +75,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 strong {
-  color: var(--border-color);
+  color: var(--crawl-color);
+}
+
+p{
+  font-size: 18px;
 }
