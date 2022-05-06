@@ -3,7 +3,7 @@ import { SWContext } from "../../context/context";
 
 const Characters = () => {
   const { characters, charactersLoaded } = useContext(SWContext);
-  return <div>
+  return <section className="characters">
       <h2>Star Wars Characters</h2>
       {charactersLoaded === false ? (
         <img src="https://c.tenor.com/tEBoZu1ISJ8AAAAC/spinning-loading.gif" alt="Spinner" />
@@ -17,7 +17,7 @@ const Characters = () => {
           ))}
         </>
       )}
-    </div>;
+    </section>;
 };
 
 export default Characters;
