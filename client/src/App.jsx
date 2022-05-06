@@ -1,10 +1,13 @@
 import "./App.scss";
 import React, { useState, useEffect } from "react";
-import SplashScreen from "./components/SplashScreen/SplashScreen";
-import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home/Home";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Characters from "./pages/Characters/Characters";
+import Movies from "./pages/Movies/Movies";
+import Planets from "./pages/Planets/Planets";
+import About from "./pages/About/About";
+import Navbar from "./components/Navbar/Navbar";
+import SplashScreen from "./components/SplashScreen/SplashScreen";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { SWContextProvider } from "./context/context";
 
 const App = () => {
@@ -24,6 +27,9 @@ const App = () => {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/characters" element={<Characters />} />
+            <Route path="/movies" element={<Movies />} />
+            <Route path="/planets" element={<Planets />} />
+            <Route path="/about" element={<About />} />
           </Routes>
         </div>
       ) : (

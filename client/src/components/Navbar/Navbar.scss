@@ -56,6 +56,7 @@
     cursor: pointer;
     margin-right: 40px;
     transform: scale(1.8);
+    z-index: 3;
   }
   #toggler:checked ~ .menu {
     max-height: 500px;

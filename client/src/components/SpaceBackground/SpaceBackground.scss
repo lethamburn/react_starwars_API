@@ -16,11 +16,9 @@ display:block;
 
 .stars {
 background:#000 url("../../../public/images/stars.png") repeat top center;
-z-index:-2;
 }
 
 .twinkling{
 background:transparent url("../../../public/images/twinkling.png") repeat top center;
-z-index: -1;
 animation:move-twink-back 200s linear infinite;
 }
