@@ -250,6 +250,7 @@
   "movies": [
     {
       "id": 4,
+      "number": "IV",
       "name": "A New Hope",
       "year": 1977,
       "poster": "https://i.imgur.com/uEb3okZ.jpg",
@@ -275,6 +276,7 @@
     },
     {
       "id": 5,
+      "number": "V",
       "name": "The Empires Strikes Back",
       "year": 1980,
       "poster": "https://i.imgur.com/2Ro0XWd.jpg",
@@ -300,6 +302,7 @@
     },
     {
       "id": 6,
+      "number": "VI",
       "name": "Return of the Jedi",
       "year": 1980,
       "poster": "https://i.imgur.com/oylncpC.jpg",
@@ -325,6 +328,7 @@
     },
     {
       "id": 1,
+      "number": "I",
       "name": "The Phantom Menace",
       "year": 1999,
       "poster": "https://i.imgur.com/ezhgI1r.jpg",
@@ -346,6 +350,7 @@
     },
     {
       "id": 2,
+      "number": "II",
       "name": "Attack of the Clones",
       "year": 2002,
       "poster": "https://i.imgur.com/kzerptR.jpg",
@@ -367,6 +372,7 @@
     },
     {
       "id": 3,
+      "number": "III",
       "name": "Revenge of the Sith",
       "year": 2005,
       "poster": "https://i.imgur.com/zAPSxtc.jpg",
@@ -388,6 +394,7 @@
     },
     {
       "id": 7,
+      "number": "VII",
       "name": "The Force Awakens",
       "year": 2015,
       "poster": "https://i.imgur.com/uhLAqI1.jpg",
@@ -409,6 +416,7 @@
     },
     {
       "id": 8,
+      "number": "VIII",
       "name": "The Last Jedi",
       "year": 2017,
       "poster": "https://i.imgur.com/cHButly.jpg",
@@ -430,6 +438,7 @@
     },
     {
       "id": 9,
+      "number": "IX",
       "name": "The Rise of Skywalker",
       "year": 2019,
       "poster": "https://i.imgur.com/o08jYAv.jpg",
