@@ -25,7 +25,6 @@
   mix-blend-mode: multiply;
   background-image: url("../../../public/images/animation.gif");
   background-size: cover;
-
   color: transparent;
   -moz-background-clip: text;
   -webkit-background-clip: text;
@@ -50,6 +49,6 @@
 
   p {
     text-align: justify;
-    padding: 20px 20px 10px 20px;
+    padding: 20px;
   }
 }
