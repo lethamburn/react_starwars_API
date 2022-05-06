@@ -8,7 +8,6 @@ const Home = () => {
     <main className="home">
       <Fade delay={1500} triggerOnce>
         <section className="showcase">
-          <video src="./images/video.mp4" autoPlay loop muted></video>
           <h1 className="title">STAR WARS</h1>
         </section>
       </Fade>
