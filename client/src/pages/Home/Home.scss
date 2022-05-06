@@ -1,9 +1,9 @@
-.home{
-  height:80vh;
+.home {
+  height: 80vh;
   width: 100vw;
   display: flex;
-  flex-direction:column;
-  justify-content:center;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -24,7 +24,7 @@
   mix-blend-mode: multiply;
   background-image: url("../../../public/images/animation.gif");
   background-size: cover;
-  
+
   color: transparent;
   -moz-background-clip: text;
   -webkit-background-clip: text;
@@ -42,7 +42,6 @@
   border: 3px solid var(--crawl-color);
   width: 30%;
   border-radius: 3px;
-  
 
   @media screen and (max-width: 600px) {
     width: 80%;
