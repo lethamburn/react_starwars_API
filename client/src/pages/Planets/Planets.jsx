@@ -12,7 +12,6 @@ const Planets = () => {
   return (
     <section className="characters">
       <Fade triggerOnce cascade>
-        <h2>Star Wars Planets</h2>
         {planetsLoaded === false ? (
           <Loader />
         ) : (
