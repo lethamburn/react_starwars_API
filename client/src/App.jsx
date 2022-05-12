@@ -4,6 +4,7 @@ import Home from "./pages/Home/Home";
 import Characters from "./pages/Characters/Characters";
 import Movies from "./pages/Movies/Movies";
 import Planets from "./pages/Planets/Planets";
+import Timeline from "./pages/Timeline/Timeline";
 import About from "./pages/About/About";
 import Navbar from "./components/Navbar/Navbar";
 import SplashScreen from "./components/SplashScreen/SplashScreen";
@@ -29,6 +30,7 @@ const App = () => {
             <Route path="/characters" element={<Characters />} />
             <Route path="/movies" element={<Movies />} />
             <Route path="/planets" element={<Planets />} />
+            <Route path="/timeline" element={<Timeline />} />
             <Route path="/about" element={<About />} />
           </Routes>
         </div>

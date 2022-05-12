@@ -2,19 +2,21 @@ import React, { useContext } from "react";
 import { SWContext } from "../../context/context";
 import { Fade } from "react-awesome-reveal";
 import MovieCard from "../../components/MovieCard/MovieCard";
+import Loader from "../../components/Loader/Loader";
 import "./Movies.scss";
 
 const Movies = () => {
-  const { movies, moviesLoaded } = useContext(SWContext);
+  const { movies, moviesLoaded, setMoviesLoaded } = useContext(SWContext);
+
+  setTimeout(() => {
+    setMoviesLoaded(true);
+  }, 3000);
+
   return (
     <section className="movies">
       <Fade triggerOnce cascade>
-        <h2>Movies</h2>
         {moviesLoaded === false ? (
-          <img
-            src="https://c.tenor.com/tEBoZu1ISJ8AAAAC/spinning-loading.gif"
-            alt="Spinner"
-          />
+          <Loader />
         ) : (
           <>
             <Fade triggerOnce cascade>

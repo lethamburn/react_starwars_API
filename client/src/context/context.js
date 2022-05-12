@@ -9,7 +9,7 @@ export const SWContextProvider = ({ children }) => {
   const [movies, setMovies] = useState([]);
   const [characters, setCharacters] = useState([]);
   const [planets, setPlanets] = useState([]);
-  const [moviesLoaded, setMoviesIsLoaded] = useState(false);
+  const [moviesLoaded, setMoviesLoaded] = useState(false);
   const [charactersLoaded, setCharactersLoaded] = useState(false);
   const [planetsLoaded, setPlanetsLoaded] = useState(false);
 
@@ -18,7 +18,6 @@ export const SWContextProvider = ({ children }) => {
     const fetchMovies = async () => {
       const res = await axios.get(`${BASEURL}/movies`);
       setMovies(res.data.data.movies);
-      setMoviesIsLoaded(true);
     };
     fetchMovies();
   }, []);
@@ -28,7 +27,6 @@ export const SWContextProvider = ({ children }) => {
     const fetchCharacters = async () => {
       const res = await axios.get(`${BASEURL}/characters`);
       setCharacters(res.data.data.characters);
-      setCharactersLoaded(true);
     };
     fetchCharacters();
   }, []);
@@ -38,7 +36,6 @@ export const SWContextProvider = ({ children }) => {
     const fetchPlanets = async () => {
       const res = await axios.get(`${BASEURL}/planets`);
       setPlanets(res.data.data.planets);
-      setPlanetsLoaded(true);
     };
     fetchPlanets();
   }, []);
@@ -48,10 +45,13 @@ export const SWContextProvider = ({ children }) => {
       value={{
         movies,
         moviesLoaded,
+        setMoviesLoaded,
         characters,
         charactersLoaded,
+        setCharactersLoaded,
         planets,
         planetsLoaded,
+        setPlanetsLoaded,
       }}
     >
       {children}

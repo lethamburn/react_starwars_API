@@ -32,6 +32,11 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
+              <Link to="/timeline">
+              <Button sectionName="Timeline"/>
+              </Link>
+            </li>
+            <li>
               <Link to="/about">
               <Button sectionName="About"/>
               </Link>
