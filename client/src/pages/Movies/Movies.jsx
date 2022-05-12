@@ -10,7 +10,7 @@ const Movies = () => {
 
   setTimeout(() => {
     setMoviesLoaded(true);
-  }, 3000);
+  }, 1000);
 
   return (
     <section className="movies">
