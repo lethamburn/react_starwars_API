@@ -8,7 +8,8 @@ const Planets = () => {
 
   setTimeout(() => {
     setPlanetsLoaded(true);
-  }, 3000);
+  }, 1000);
+
   return (
     <section className="characters">
       <Fade triggerOnce cascade>

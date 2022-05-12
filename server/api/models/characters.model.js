@@ -9,6 +9,7 @@ const CharacterSchema = new Schema(
     origin: { type: String, required: false },
     role: { type: String, required: false },
     image: { type: String, required: true },
+    portrait: {type: String, required: true},
     family: { type: Array, required: false },
     description: {type: String, required: false}
   },
