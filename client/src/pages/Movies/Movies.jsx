@@ -26,7 +26,7 @@ const Movies = () => {
                     return a.id - b.id;
                   })
                   .map((movie) => (
-                    <MovieCard movie={movie} />
+                    <MovieCard movie={movie} key={JSON.stringify(movie)} />
                   ))}
               </article>
             </Fade>

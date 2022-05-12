@@ -1,3 +1,11 @@
-.characters{
-    height: 100vh;
+.characters {
+  width: 100vw;
+  display: flex;
+  padding-left: 10px;
+}
+
+.characters-gallery {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
 }

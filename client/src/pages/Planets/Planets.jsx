@@ -19,7 +19,7 @@ const Planets = () => {
           <>
             <Fade triggerOnce cascade>
               {planets.map((planet) => (
-                <figure key={planet.id}>
+                <figure key={JSON.stringify(planet)}>
                   <img src={planet.image} alt={planet.name} width="200px" />
                   <h3>{planet.name}</h3>
                 </figure>

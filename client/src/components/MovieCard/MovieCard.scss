@@ -12,7 +12,7 @@
     text-transform: uppercase;
   }
 
-  caption {
+  p {
     font-family: "Star Wars", sans-serif;
   }
 
@@ -59,7 +59,7 @@
       transition: color 0.5s ease-in-out;
     }
 
-    caption {
+    p {
       color: var(--border-color);
       transition: color 0.5s ease-in-out;
     }

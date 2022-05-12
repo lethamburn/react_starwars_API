@@ -2,9 +2,11 @@ import React, { useContext } from "react";
 import { SWContext } from "../../context/context";
 import { Fade } from "react-awesome-reveal";
 import Loader from "../../components/Loader/Loader";
-
+import CharacterCard from "../../components/CharacterCard/CharacterCard";
+import "./Characters.scss";
 const Characters = () => {
-  const { characters, charactersLoaded, setCharactersLoaded } = useContext(SWContext);
+  const { characters, charactersLoaded, setCharactersLoaded } =
+    useContext(SWContext);
 
   setTimeout(() => {
     setCharactersLoaded(true);
@@ -17,16 +19,11 @@ const Characters = () => {
         ) : (
           <>
             <Fade triggerOnce cascade>
-              {characters.map((character) => (
-                <figure key={character.id}>
-                  <img
-                    src={character.image}
-                    alt={character.name}
-                    width="200px"
-                  />
-                  <h3>{character.name}</h3>
-                </figure>
-              ))}
+              <div className="characters-gallery">
+                {characters.map((character) => (
+                  <CharacterCard character={character} key={JSON.stringify(character)} />
+                ))}
+              </div>
             </Fade>
           </>
         )}
