@@ -210,7 +210,7 @@
       "origin": "Chandrila",
       "role": "Supreme Leader",
       "portrait": "https://i.imgur.com/d9NFyUi.jpg",
-      "image": "https://i.imgur.com/bGM0wd3.png",
+      "image": "https://i.imgur.com/nrVwMUY.png",
       "family": [
         {
           "name": "Leia Organa",
@@ -262,6 +262,56 @@
       "image": "https://i.imgur.com/V6LcpI1.png",
       "family": [],
       "description": "Darth Sidious, born Sheev Palpatine and also known simply as the Emperor, was a Force-sensitive human male Dark Lord of the Sith and Emperor of the Galactic Empire, ruling from 19 BBY to 4 ABY. Rising to power in the Galactic Senate as the senator of Naboo, the secretive Sith Lord cultivated two identities, Sidious and Palpatine, using both to further his political career. He orchestrated the fall of the Galactic Republic and the Jedi Order through the Clone Wars, and then established his reign over the galaxy which lasted until his death at the Battle of Endor. However, the dark side of the Force gave rise to powers which allowed the Emperor to return from the grave."
+    },
+    {
+      "id": 17,
+      "name": "General Grievous",
+      "origin": "Kalee",
+      "role": "Confederacy General",
+      "portrait": "https://i.imgur.com/hM78m5P.png",
+      "image": "https://i.imgur.com/adv0OJL.png",
+      "family": [],
+      "description": "Grievous, born as Qymaen jai Sheelal, was a Kaleesh male warlord who served within the military forces of the Confederacy of Independent Systems as a commanding officer during the Clone Wars in the final years of the Republic Era. In addition to his position as a general within the Separatist Droid Army, the Kaleesh held the title of Supreme Martial Commander of the Separatist Droid Armies throughout the duration of the war, in which he led countless engagements against the Republic's Grand Army. Recognized for his ruthless tactics and extensive cybernetic enhancements, Grievous utilized the Separatist Droid Army and his adept combat skills to instill fear throughout the galaxy as he traveled to and invaded planets, while also engaging numerous Knights of the Jedi Order, his sworn enemies."
+    },
+    {
+      "id": 18,
+      "name": "Mace Windu",
+      "origin": "Haruun Kal",
+      "role": "Jedi Knight",
+      "portrait": "https://i.imgur.com/QkkBa1G.png",
+      "image": "https://i.imgur.com/QNzhr2r.png",
+      "family": [],
+      "description": "Mace Windu was a revered Force-sensitive human male Jedi Master and member of the Jedi High Council during the last years of the Republic Era. During his time in the Jedi Order, he once served as elected leader of the Jedi and, during the Clone Wars, as a Jedi General in the Grand Army of the Republic. He was the greatest champion of the Jedi Order and promoted its ancient traditions amidst the growing influence of the dark side of the Force in the corrupt, declining days of the Republic."
+    },
+    {
+      "id": 19,
+      "name": "Plo Koon",
+      "origin": "Dorin",
+      "role": "Jedi Knight",
+      "portrait": "https://i.imgur.com/ovuUlwh.png",
+      "image": "https://i.imgur.com/fLNjNKn.png",
+      "family": [],
+      "description": "Plo Koon was a Force-sensitive Kel Dor Jedi Master who served as a member of the Jedi High Council during the last years of the Galactic Republic. He served as a respected Jedi General during the Clone Wars, a pan-galactic conflict between the Republic and its splinter state, the Confederacy of Independent Systems. During the war he frequently undertook dangerous missions with the soldiers under his command, the 104th Battalion. Koon wore a breath mask to filter the air around him so that it matched his home planet of Dorin, and wore goggles to prevent his eye fluids from evaporating."
+    },
+    {
+      "id": 20,
+      "name": "Ki-Adi-Mundi",
+      "origin": "Cerea",
+      "role": "Jedi Knight",
+      "portrait": "https://i.imgur.com/tycxKRx.png",
+      "image": "https://i.imgur.com/7rljNlp.png",
+      "family": [],
+      "description": "Ki-Adi-Mundi was a Force-sensitive Cerean male Jedi Master and member of the Jedi High Council during the last years of the Galactic Republic. By the time of the Clone Wars, Mundi became a Jedi General of the Grand Army of the Republic. Like his Jedi colleagues, he led the Republic clone troopers against the Separatist Alliance forces in several battles across the galaxy, including the first and second campaign on Geonosis and the Outer Rim Sieges. In 19 BBY, the third and final year of the war, Mundi oversaw the Republic invasion of Mygeeto with the 21st Nova Corps under his command. During the campaign, Supreme Chancellor Sheev Palpatine instructed the Grand Army soldiers to execute their Jedi leaders in accordance with Order 66, an act which resulted in the death of Mundi along with the majority of the Jedi Order."
+    },
+    {
+      "id": 21,
+      "name": "Yoda",
+      "origin": "Unknown",
+      "role": "Jedi Knight",
+      "portrait": "https://i.imgur.com/8XsOMIk.png",
+      "image": "https://i.imgur.com/CjFTVXs.png",
+      "family": [],
+      "description": "Yoda, a Force-sensitive male being belonging to a mysterious species, was a legendary Jedi Master who witnessed the rise and fall of the Galactic Republic, followed by the rise of the Galactic Empire. Small in stature but revered for his wisdom and power, Yoda trained generations of Jedi, ultimately serving as the Grand Master of the Jedi Order. Having lived through nine centuries of galactic history, he played integral roles in the Clone Wars, the rebirth of the Jedi through Luke Skywalker, and unlocking the path to immortality."
     }
   ],
   "movies": [
