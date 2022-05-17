@@ -5,17 +5,33 @@
 }
 
 .characters-gallery {
-  width: 45vw;
+  width: 40vw;
+  height: 77vh;
+
   display: flex;
   flex-wrap: wrap;
+  overflow: scroll;
+  overflow-x: hidden;
   @media screen and (max-width: 600px) {
     width: 25vw;
   }
 }
+.characters-gallery::-webkit-scrollbar {
+  width: 8px;
+}
 
+.characters-gallery::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+
+.characters-gallery::-webkit-scrollbar-thumb {
+  background-color: var(--crawl-color);
+  border: 3px solid var(--crawl-color);
+}
 .characters-display {
   padding-top: 10px;
-  width: 45vw;
+  padding-right: 40px;
+  width: 40vw;
 
   @media screen and (max-width: 600px) {
     width: 70vw;

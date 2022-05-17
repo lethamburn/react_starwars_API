@@ -13,7 +13,7 @@ const Characters = () => {
 
   setTimeout(() => {
     setCharactersLoaded(true);
-  }, 1000);
+  }, 2000);
 
   return (
     <section>

@@ -124,7 +124,7 @@
       "origin": "Coruscant",
       "role": "Jedi Knight",
       "portrait": "https://i.imgur.com/D67aPIi.jpg",
-      "image":"https://i.imgur.com/Bh4MRco.png",
+      "image": "https://i.imgur.com/Bh4MRco.png",
       "description": "Qui-Gon Jinn, a Force-sensitive human male, was a venerable if maverick Jedi Master who lived during the last years of the Republic Era. He was a wise and well-respected member of the Jedi Order, and was offered a seat on the Jedi Council, but chose to reject and follow his own path. Adhering to a philosophy centered around the Living Force, Jinn strove to follow the will of the Force even when his actions conflicted with the wishes of the High Council. After encountering Anakin Skywalker, Jinn brought him to the Jedi Temple on Coruscant, convinced he had found the Chosen One. His dying wish was for Skywalker to become a Jedi and ultimately restore balance to the Force."
     },
     {
@@ -312,6 +312,97 @@
       "image": "https://i.imgur.com/CjFTVXs.png",
       "family": [],
       "description": "Yoda, a Force-sensitive male being belonging to a mysterious species, was a legendary Jedi Master who witnessed the rise and fall of the Galactic Republic, followed by the rise of the Galactic Empire. Small in stature but revered for his wisdom and power, Yoda trained generations of Jedi, ultimately serving as the Grand Master of the Jedi Order. Having lived through nine centuries of galactic history, he played integral roles in the Clone Wars, the rebirth of the Jedi through Luke Skywalker, and unlocking the path to immortality."
+    },
+    {
+      "id": 22,
+      "name": "Darth Vader",
+      "origin": "Tatooine",
+      "role": "Sith Lord",
+      "portrait": "https://i.imgur.com/sMOmWfH.png",
+      "image": "https://i.imgur.com/DKJdN51.png",
+      "family": [
+        {
+          "name": "Padme Amidala",
+          "member": "Wife"
+        },
+        {
+          "name": "Shmi Skywalker",
+          "member": "Mother"
+        },
+        {
+          "name": "Luke Skywalker",
+          "member": "Son"
+        },
+        {
+          "name": "Leia Organa",
+          "member": "Daughter"
+        }
+      ],
+      "description": "Vader enforced the rule of the New Order as the Emperor's Sith apprentice throughout most of the Imperial Era. In the aftermath of the Battle of Yavin in 0 BBY, he discovered the existence of his son and was determined to turn Luke to the dark side. Luke sought to become a Jedi, like his father before him, and believed that Vader had the potential to turn back to the light side of the Force. Vader was defeated by Luke during the Battle of Endor in 4 ABY, but the young Jedi refused to strike down his father in anger, causing the Emperor to torture Luke with Force lightning. The pain inflicted on his son awakened the part of Vader that was still Anakin, resulting in a redeemed Skywalker killing Sidious at the cost of his own life. Having destroyed the Sith and fulfilled his destiny as the Chosen One, Skywalker made peace with his son and became one with the Force."
+    },
+    {
+      "id": 23,
+      "name": "Kanan Jarrus",
+      "origin": "Coruscant",
+      "role": "Jedi Knight",
+      "portrait": "https://i.imgur.com/RkrKGrY.jpg",
+      "image": "https://i.imgur.com/jPQIrFO.png",
+      "family": [],
+      "description": "Kanan Jarrus, born Caleb Dume, was a Force-sensitive human male Jedi Knight who survived Order 66 during the Clone Wars. Living on thanks to the sacrifice of his Master, Depa Billaba, on Kaller, he met the smuggler Janus Kasmir, who taught him how to survive as a fugitive. Going into hiding, he forsook the Jedi ways for some time, swapping his blue-bladed lightsaber for a blaster. After working with the Twi'lek rebel operative Hera Syndulla during the Gorse Conflict, Jarrus decided to join her nascent rebel cell."
+    },
+    {
+      "id": 24,
+      "name": "Ezra Bridger",
+      "origin": "Lothal",
+      "role": "Padawan",
+      "portrait": "https://i.imgur.com/4BUpJzf.png",
+      "image": "https://i.imgur.com/W9Nv5Yb.png",
+      "family": [
+        {
+          "name": "Mira Bridger",
+          "member": "Mother"
+        },
+        {
+          "name": "Ephraim Bridger",
+          "member": "Dather"
+        }
+      ],
+      "description": "Ezra Bridger, a Force-sensitive human male, was a Jedi Padawan, a freedom fighter, and a revolutionary leader in the early rebellion against the Galactic Empire. He was born on Empire Day in 19 BBY to Ephraim and Mira Bridger. His parents' public criticism of the Empire led to their imprisonment, leaving Bridger an orphan on the planet Lothal as a child. He joined the rebel crew of the Ghost in 5 BBY and was trained in the ways of the Force by Kanan Jarrus. Bridger's abilities grew quickly, and a message of hope he broadcast in the Lothal sector inspired a number of rebel cells to begin working together to fight the Empire."
+    },
+    {
+      "id": 25,
+      "name": "Hera Syndulla",
+      "origin": "Ryloth",
+      "role": "Pilot",
+      "portrait": "https://i.imgur.com/mR1QTk9.png",
+      "image": "https://i.imgur.com/2vGQTTz.png",
+      "family": [
+        {
+          "name": "Cham Syndulla",
+          "member": "Father"
+        }
+      ],
+      "description": "Hera was born in the years before the Clone Wars, and when they broke out and Ryloth became occupied by the Separatists, her father, Cham Syndulla, led a resistance to liberate their people. During the many battles, Hera was inspired by starships and desired to become a pilot, and was inspired by her father's determination to fight for their people and their world. At some point during the Clone Wars, young Hera acquired the cobbled-together astromech C1-10P. At the conclusion of the Clone Wars, when the Republic was transformed into the tyrannical Galactic Empire, they refused to leave Ryloth and Cham found himself fighting a new enemy. Alas, his rebellion would cost him his wife, Hera's mother, at the hands of the Empire, driving him to want nothing more than the liberation of his world. This drove a wedge between Hera and her father, leading her to leave Ryloth to become a star-pilot, and eventually a member of the Rebellion against the Empire."
+    },
+    {
+      "id": 26,
+      "name": "Sabine Wren",
+      "origin": "Mandalore",
+      "role": "Mandalorian",
+      "portrait": "https://i.imgur.com/tTX91SA.png",
+      "image": "https://i.imgur.com/lafvBjr.png",
+      "family": [],
+      "description": "Sabine Wren was a human female Mandalorian warrior and revolutionary leader during the early rebellion against the Galactic Empire. Her artistry during the rebellion inspired the symbol of the Alliance to Restore the Republic, and her claim over the ancient Mandalorian weapon known as the Darksaber made her a symbol to Clan Wren and the hopes of freeing her people's homeworld of Mandalore from the rule of the Empire. Prior to becoming a rebel, Wren was a cadet at the Imperial Academy of Mandalore. She built weapons she believed would be used for peace but were instead used against her family and her people. Wracked with guilt, Wren left Mandalore and was branded a traitor by the Empire and her mother, Ursa Wren, leader of the clan. Wren worked as a bounty hunter alongside her friend Ketsu Onyo before being recruited by Captain Hera Syndulla and the Jedi Kanan Jarrus to join their rebel crew aboard the starship Ghost. Together, the crew fought against the Empire and used Wren's art as a symbol of hope. They became part of a larger rebel movement, with Wren's work continuing to inspire the fledgling rebellion."
+    },
+    {
+      "id": 27,
+      "name": "Garazeb Orrelios",
+      "origin": "Lasan",
+      "role": "Lasan Honor Guard",
+      "portrait": "https://i.imgur.com/BlWpo3Z.png",
+      "image": "https://i.imgur.com/YSegCgi.png",
+      "family": [],
+      "description": "Garazeb 'Zeb' Orrelios was born and raised on the planet Lasan and served as Captain of the Lasan High Honor Guard, where it was his duty to protect the royal family and assist his people into rising up against the Galactic Empire in its early days as the first species ever to have done so. When the Empire responded to this rebellion by sacking and massacring the Lasats themselves, Zeb, along with the rest of the Honor Guard, helped protect their people. Unfortunately, they were no match for the Empire's assault on the Royal Palace of Lasat, and were finished when a bomb was set off, destroying most of the castle. Zeb managed to survive the endeavor, unlike most of his kind. But because of its ordeal, he grew a gruff demeanor, but has remained loyal to a great deal of sympathy towards the weak, thus earning him a place in the rebel crew of a VCX-100 light freighter called the Ghost by the time he was thirty-nine."
     }
   ],
   "movies": [

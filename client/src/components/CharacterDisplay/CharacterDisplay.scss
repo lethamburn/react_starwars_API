@@ -1,6 +1,24 @@
 .character-figure {
   display: flex;
+  height: 74vh;
   flex-direction: column;
   text-align: center;
   align-items: center;
+  gap: 10px;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding: 10px;
+}
+
+.character-figure::-webkit-scrollbar {
+  width: 8px;
+}
+
+.character-figure::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+
+.character-figure::-webkit-scrollbar-thumb {
+  background-color: var(--crawl-color);
+  border: 3px solid var(--crawl-color);
 }

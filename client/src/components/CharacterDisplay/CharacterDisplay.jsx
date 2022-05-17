@@ -9,8 +9,8 @@ const CharacterDisplay = ({ character }) => {
           <>
         <h2>{character.name}</h2>
         <CharacterPortrait character={character} />
-        <p>Origin: {character.origin}</p>
-        <p>Role: {character.role}</p>
+        <p><strong>Origin</strong>: {character.origin}</p>
+        <p><strong>Role</strong>: {character.role}</p>
         <p>{character.description}</p>
         </>
       ) : (
