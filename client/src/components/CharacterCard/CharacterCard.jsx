@@ -1,8 +1,8 @@
 import React from "react";
 import "./CharacterCard.scss";
-const CharacterCard = ({ character }) => {
+const CharacterCard = ({ character, setSelectedCharacter }) => {
   return (
-    <div className="character-portrait">
+    <div className="character-portrait" onClick={() => setSelectedCharacter(character)}>
       <img src={character.image} alt={character.name} />
     </div>
   );

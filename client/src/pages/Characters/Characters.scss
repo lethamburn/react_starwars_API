@@ -1,11 +1,16 @@
 .characters {
-  width: 100vw;
   display: flex;
-  padding-left: 10px;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .characters-gallery {
-  width: 50%;
+  width: 45vw;
   display: flex;
   flex-wrap: wrap;
+}
+
+.characters-display {
+  padding-top: 10px;
+  width: 45vw;
 }
