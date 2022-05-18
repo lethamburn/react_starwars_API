@@ -1,5 +1,12 @@
-.loader{
-    mix-blend-mode: multiply;
-    width: 200px;
-    padding: 40px;
+.loader {
+  width: 200px;
+  padding: 40px;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
 }

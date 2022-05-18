@@ -6,12 +6,16 @@ const CharacterDisplay = ({ character }) => {
   return (
     <figure className="character-figure">
       {character !== undefined ? (
-          <>
-        <h2>{character.name}</h2>
-        <CharacterPortrait character={character} />
-        <p><strong>Origin</strong>: {character.origin}</p>
-        <p><strong>Role</strong>: {character.role}</p>
-        <p>{character.description}</p>
+        <>
+          <h2>{character.name}</h2>
+          <CharacterPortrait character={character} />
+          <p>
+            <strong>Origin</strong>: {character.origin}
+          </p>
+          <p>
+            <strong>Role</strong>: {character.role}
+          </p>
+          <p>{character.description}</p>
         </>
       ) : (
         <h2>Select Character</h2>

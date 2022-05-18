@@ -40,6 +40,8 @@ export const SWContextProvider = ({ children }) => {
     fetchPlanets();
   }, []);
 
+ 
+
   return (
     <SWContext.Provider
       value={{

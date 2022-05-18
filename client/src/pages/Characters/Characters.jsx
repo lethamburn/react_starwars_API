@@ -13,7 +13,7 @@ const Characters = () => {
 
   setTimeout(() => {
     setCharactersLoaded(true);
-  }, 2000);
+  }, 3000);
 
   return (
     <section>
@@ -21,7 +21,7 @@ const Characters = () => {
         {charactersLoaded === false ? (
           <Loader />
         ) : (
-          <Fade triggerOnce>
+          <Fade triggerOnce cascade delay={500}>
             <div className="characters-gallery">
               {characters.map((character) => (
                 <CharacterCard

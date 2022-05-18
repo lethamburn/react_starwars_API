@@ -6,6 +6,7 @@ import Movies from "./pages/Movies/Movies";
 import Planets from "./pages/Planets/Planets";
 import Timeline from "./pages/Timeline/Timeline";
 import About from "./pages/About/About";
+import MovieDetail from "./pages/MovieDetail/MovieDetail";
 import Navbar from "./components/Navbar/Navbar";
 import SplashScreen from "./components/SplashScreen/SplashScreen";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -29,6 +30,7 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/characters" element={<Characters />} />
             <Route path="/movies" element={<Movies />} />
+            <Route path="/movies/:id" element={<MovieDetail />} />
             <Route path="/planets" element={<Planets />} />
             <Route path="/timeline" element={<Timeline />} />
             <Route path="/about" element={<About />} />

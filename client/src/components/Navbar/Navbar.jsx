@@ -8,7 +8,7 @@ const Navbar = () => {
     <Fade triggerOnce delay={2000}>
       <nav className="navbar">
         <Link to="/" className="logo">
-          <img src="./icons/animated.gif" alt="Death Star Icon" />
+          <img src="./icons/animated.gif" alt="Animated Millenium Falcon" />
         </Link>
         <input type="checkbox" id="toggler" />
         <label htmlFor="toggler">

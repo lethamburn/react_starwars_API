@@ -37,8 +37,24 @@ const getMovieById = async (req, res, next) => {
     return next(err);
   }
 };
+
+const getMovieByName = async (req, res, next) => {
+  const { name } = req.params;
+
+  try {
+    const movieByName = await Movie.find({ name });
+    return res.json({
+      status: 200,
+      message: "OK",
+      data: { movie: movieByName },
+    });
+  } catch (error) {
+    return next(error);
+  }
+};
 //Exportamos las funciones
 module.exports = {
   getAllMovies,
   getMovieById,
+  getMovieByName
 };
