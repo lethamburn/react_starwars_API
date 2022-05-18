@@ -18,8 +18,8 @@ const Planets = () => {
           <Loader />
         ) : (
           <>
-            <Fade triggerOnce cascade>
-              <section className="planets-gallery">
+            <section className="planets-gallery">
+              <Fade triggerOnce cascade>
                 {planets
                   .sort((a, b) => {
                     return a.name.localeCompare(b.name);
@@ -32,8 +32,8 @@ const Planets = () => {
                       <h3>{planet.name}</h3>
                     </figure>
                   ))}
-              </section>
-            </Fade>
+              </Fade>
+            </section>
           </>
         )}
       </Fade>
