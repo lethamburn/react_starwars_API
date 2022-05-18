@@ -9,7 +9,7 @@ const {
 } = require("../controllers/movies.controller");
 
 router.get("/", getAllMovies);
-router.get("/:movieId", getMovieById);
+/* router.get("/:movieId", getMovieById); */
 router.get("/:name", getMovieByName)
 
 module.exports = router;
