@@ -28,7 +28,7 @@ const MovieDetail = () => {
             <p>{movie.crawl}</p>
           </figcaption>
           <div className="video-container">
-          <iframe src={`https://player.vimeo.com/video/${movie.trailer}?autoplay=1`} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" width="600" height="300"></iframe>
+          <iframe title={movie.name} src={`https://player.vimeo.com/video/${movie.trailer}?autoplay=1`} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" width="600" height="300"></iframe>
           </div>
           <p>
             <strong>Year</strong> {movie.year}

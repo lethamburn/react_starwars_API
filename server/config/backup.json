@@ -685,6 +685,142 @@
       "suns": 2,
       "region": "Outer Rim",
       "size": 10465
+    },
+    {
+      "id": 3,
+      "name": "Endor",
+      "image": "https://i.imgur.com/YFccF7w.png",
+      "suns": 1,
+      "region": "Outer Rim",
+      "size": 4900
+    },
+    {
+      "id": 4,
+      "name": "Crait",
+      "image": "https://i.imgur.com/iauWfcq.png",
+      "suns": 1,
+      "region": "Outer Rim",
+      "size": 0
+    },
+    {
+      "id": 5,
+      "name": "Corellia",
+      "image": "https://i.imgur.com/lP3kUeL.png",
+      "suns": 1,
+      "region": "Core",
+      "size": 0
+    },
+    {
+      "id": 6,
+      "name": "Dagobah",
+      "image": "https://i.imgur.com/lOYrkyc.png",
+      "suns": 1,
+      "region": "Outer Rim",
+      "size": 0
+    },
+    {
+      "id": 7,
+      "name": "Dathomir",
+      "image": "https://i.imgur.com/niHdBLg.png",
+      "suns": 1,
+      "region": "Outer Rim",
+      "size": 10460
+    },
+    {
+      "id": 8,
+      "name": "Exegol",
+      "image": "https://i.imgur.com/2MhscMk.png",
+      "suns": 1,
+      "region": "Unkown Regions",
+      "size": 13647
+    },
+    {
+      "id": 9,
+      "name": "Felucia",
+      "image": "https://i.imgur.com/OJ9hsNo.png",
+      "suns": 1,
+      "region": "Outer Rim",
+      "size": 0
+    },
+    {
+      "id": 10,
+      "name": "Hoth",
+      "image": "https://i.imgur.com/WQ0sSpa.png",
+      "suns": 1,
+      "region": "Outer Rim",
+      "size": 7200
+    },
+    {
+      "id": 11,
+      "name": "Ilum",
+      "image": "https://i.imgur.com/mu99UFi.png",
+      "suns": 1,
+      "region": "Unknown Regions",
+      "size": 660
+    },
+    {
+      "id": 12,
+      "name": "Jakku",
+      "image": "https://i.imgur.com/cXfMTzd.png",
+      "suns": 1,
+      "region": "Inner Rim",
+      "size": 6400
+    },
+    {
+      "id": 13,
+      "name": "Kamino",
+      "image": "https://i.imgur.com/axQKQ9K.png",
+      "suns": 1,
+      "region": "Extragalactic",
+      "size": 19270
+    },
+    {
+      "id": 14,
+      "name": "Lothal",
+      "image": "https://i.imgur.com/pJzHzMP.png",
+      "suns": 1,
+      "region": "Outer Rim",
+      "size": 0
+    },
+    {
+      "id": 15,
+      "name": "Mandalore",
+      "image": "https://i.imgur.com/oEecLhH.png",
+      "suns": 1,
+      "region": "Outer Rim",
+      "size": 9200
+    },
+    {
+      "id": 16,
+      "name": "Mon Cala",
+      "image": "https://i.imgur.com/Nn3LQjE.png",
+      "suns": 2,
+      "region": "Outer Rim",
+      "size": 0
+    },
+    {
+      "id": 17,
+      "name": "Mustafar",
+      "image": "https://i.imgur.com/9CAj9Fr.png",
+      "suns": 1,
+      "region": "Outer Rim",
+      "size": 4200
+    },
+    {
+      "id": 18,
+      "name": "Naboo",
+      "image": "https://i.imgur.com/eExr56l.png",
+      "suns": 1,
+      "region": "Mid Rim",
+      "size": 12200
+    },
+    {
+      "id": 19,
+      "name": "Yavin IV",
+      "image": "https://i.imgur.com/enRk5Ss.png",
+      "suns": 1,
+      "region": "Outer Rim",
+      "size": 10200
     }
   ]
 }
