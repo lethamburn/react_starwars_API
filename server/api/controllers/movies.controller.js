@@ -42,7 +42,7 @@ const getMovieByName = async (req, res, next) => {
   const { name } = req.params;
 
   try {
-    const movieByName = await Movie.find({ name });
+    const movieByName = await Movie.find({name: name });
     return res.json({
       status: 200,
       message: "OK",

@@ -4,12 +4,12 @@ import { useParams } from "react-router-dom";
 
 const MovieDetail = () => {
   const BASEURL = "https://starwars-server.vercel.app";
-  const { id } = useParams();
+  const { name } = useParams();
   const [character,setCharacter] = useState({})
 
   useEffect(() => {
     const fetchCharacterByID = async () => {
-      const res = await axios.get(`${BASEURL}/movies/${id}`);
+      const res = await axios.get(`${BASEURL}/movies/${name}`);
       console.log(res)
     };
     fetchCharacterByID();
