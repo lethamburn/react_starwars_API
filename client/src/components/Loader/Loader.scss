@@ -1,6 +1,6 @@
 .loader {
   width: 200px;
-  padding: 40px;
+  padding: 40px 0px;
 }
 
 .loader-container {
@@ -8,5 +8,4 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: fixed;
 }

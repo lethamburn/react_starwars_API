@@ -8,7 +8,7 @@ const Planets = () => {
 
   setTimeout(() => {
     setPlanetsLoaded(true);
-  }, 1000);
+  }, 3000);
 
   return (
     <section className="characters">
