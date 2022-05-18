@@ -3,7 +3,6 @@ import axios from "axios";
 import { useParams, Link } from "react-router-dom";
 import "./MovieDetail.scss";
 import Loader from "../../components/Loader/Loader";
-import ReactPlayer from "react-player";
 import Button from "../../layout/Button/Button";
 const MovieDetail = () => {
   const BASEURL = "https://starwars-server.vercel.app";
@@ -28,13 +27,9 @@ const MovieDetail = () => {
             <img src={movie.poster} alt={movie.name} />
             <p>{movie.crawl}</p>
           </figcaption>
-          <ReactPlayer
-            className="video-container"
-            url={movie.trailer}
-            playing={true}
-            muted={true}
-            width="70%"
-          />
+          <div className="video-container">
+          <iframe src={`https://player.vimeo.com/video/${movie.trailer}?autoplay=1`} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" width="600" height="300"></iframe>
+          </div>
           <p>
             <strong>Year</strong> {movie.year}
           </p>
