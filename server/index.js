@@ -63,7 +63,7 @@ app.all("/", (req, res) => {
   <a href="/planets">/planets</a>
 
   <h2>Demo</h2>
-  <a href="https://react-starwars-nine.vercel.app/">https://react-starwars-nine.vercel.app/</a>
+  <a href="https://reactwars-api.vercel.app/">https://reactwars-api.vercel.app//</a>
    `);
 });
 app.use("/characters", characters);
