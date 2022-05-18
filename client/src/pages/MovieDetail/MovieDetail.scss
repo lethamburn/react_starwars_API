@@ -12,12 +12,14 @@
   h3 {
     color: var(--crawl-color);
     font-family: "Crawl", sans-serif;
+    font-weight: normal;
   }
 
   h3 {
     text-transform: uppercase;
     font-family: "Futura", sans-serif;
     font-size: 2rem;
+    font-weight: normal;
   }
 
   img {
@@ -44,6 +46,7 @@
       white-space: pre-wrap;
       color: var(--crawl-color);
       font-family: "Crawl", sans-serif;
+      font-weight: normal;
     }
   }
 
