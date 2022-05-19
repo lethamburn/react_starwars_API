@@ -16,6 +16,7 @@ const Home = () => {
           <FlipCard />
         </div>
       </Fade>
+      
     </main>
   );
 };
