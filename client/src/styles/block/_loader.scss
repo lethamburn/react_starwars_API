@@ -2,12 +2,19 @@ $holo-color: #00fcfc;
 $width: 150px;
 $height: 5px;
 
+.loader-container{
+  height: 80vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .card {
  
   position: relative;
   width: 200px;
   height: 170px;
-  margin-top: 70px;
   background-image: url("../../../public/images/loading.gif");
   background-size: contain;
   background-repeat: no-repeat;
@@ -84,11 +91,4 @@ $height: 5px;
       0 -35px 30px rgba($holo-color, 0.85), 0 -45px 35px rgba($holo-color, 0.95),
       0 -65px 40px rgba($holo-color, 1), 0 -75px 50px rgba($holo-color, 1);
   }
-}
-
-.loader-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }

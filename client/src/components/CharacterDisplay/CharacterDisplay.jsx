@@ -18,7 +18,7 @@ const CharacterDisplay = ({ character }) => {
           <p>{character.description}</p>
         </>
       ) : (
-        <h2>Select Character</h2>
+        <h2>Select a Character</h2>
       )}
     </figure>
   );
