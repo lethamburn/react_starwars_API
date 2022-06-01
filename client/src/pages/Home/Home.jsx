@@ -3,8 +3,8 @@ import { Fade } from "react-awesome-reveal";
 import Button from "../../layout/Button/Button";
 const Home = () => {
   return (
-    <main className="home">
       <Fade delay={1500} triggerOnce>
+    <main className="home">
         <section className="showcase">
           <img src="./icons/logo.png" alt="Star Wars Logo" />
         </section>
@@ -16,8 +16,8 @@ const Home = () => {
           </a>
           <img src="./ui/deathstarcontrols.svg" alt="Death Star Controls" />
         </section>
-      </Fade>
     </main>
+      </Fade>
   );
 };
 
