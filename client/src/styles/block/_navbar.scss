@@ -1,0 +1,80 @@
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  padding-block: 15px;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+.logo {
+  margin-left: 20px;
+  cursor: pointer;
+
+  img {
+    width: 60px;
+    transition: all 0.2s ease-in-out;
+    @keyframes rotate {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+    animation: rotate 20s linear infinite;
+    &:hover {
+      filter: invert(100%);
+    }
+  }
+}
+.controlbar {
+  padding-top: 14px;
+  width: 20%;
+
+  @media screen and (max-width: 1096px) {
+    display: none
+  }
+}
+.list {
+  display: flex;
+  gap: 30px;
+  margin-right: 30px;
+  margin-top: 10px;
+  font-family: "Aurek";
+
+  a {
+    color: var(--stormtrooper-white);
+    transition: 0.5s;
+    &:hover {
+      color: var(--vader-black);
+    }
+  }
+}
+#toggler,
+.navbar label {
+  display: none;
+}
+@media screen and (max-width: 890px) {
+  .menu {
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-in-out;
+  }
+  .list {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .navbar label {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 40px;
+    transform: scale(1.8);
+    z-index: 3;
+  }
+  #toggler:checked ~ .menu {
+    max-height: 500px;
+    transition: max-height 1s ease-in-out;
+  }
+}

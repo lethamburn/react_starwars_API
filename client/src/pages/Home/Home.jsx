@@ -1,22 +1,22 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
-import FlipCard from "../../layout/FlipCard/FlipCard";
-import "./Home.scss";
-
+import Button from "../../layout/Button/Button";
 const Home = () => {
   return (
     <main className="home">
       <Fade delay={1500} triggerOnce>
         <section className="showcase">
-          <h1 className="title">STAR WARS</h1>
+          <img src="./icons/logo.png" alt="Star Wars Logo" />
+        </section>
+        <section className="description">
+          <h2>A STAR WARS CLIENT</h2>
+          <h3>A STAR WARS CLIENT</h3>
+          <a href="https://starwars-server.vercel.app/" target="_blank">
+            <Button sectionName="Link to the API" />
+          </a>
+          <img src="./ui/deathstarcontrols.svg" alt="Death Star Controls" />
         </section>
       </Fade>
-      <Fade triggerOnce delay={1000}>
-        <div className="hero-container">
-          <FlipCard />
-        </div>
-      </Fade>
-      
     </main>
   );
 };

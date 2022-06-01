@@ -1,0 +1,49 @@
+//GLOBAL STYLES
+body {
+    color: var(--stormtrooper-white);
+    font-family: "Futura", sans-serif;
+  }
+  
+  // SCROLLBAR
+  body::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--vader-black);
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--crawl-yellow);
+    border: 3px solid var(--crawl-yellow);
+  }
+  
+  strong {
+    color: var(--crawl-yellow);
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "Futura", serif;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 2.25em;
+  }
+  h3 {
+    font-size: 1.75em;
+  }
+  h4 {
+    font-size: 1.125em;
+  }
+  p {
+    font-size: 1em;
+  }
+  
+  strong{
+    color: var(--galactic-blue);
+  }

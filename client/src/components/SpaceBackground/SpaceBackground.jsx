@@ -1,5 +1,4 @@
 import React from "react";
-import "./SpaceBackground.scss";
 
 const SpaceBackground = () => {
   return (

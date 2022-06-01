@@ -1,20 +1,15 @@
+//PALETTE AND FONTS
+@import url("../src/styles/utils/_palette.scss");
+@import url("../src/styles/utils/_fonts.scss");
 //RESET
-* {
-  margin: 0;
-  padding: 0;
-}
-html {
-  scroll-behavior: smooth;
-}
+@import url("../src/styles/utils/_reset.scss");
+//GLOBAL STYLES
 
-li {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
+//BLOCK STYLES
+@import url("../src/styles/block/_global.scss");
+@import url("../src/styles/block/_background.scss");
+@import url("../src/styles/block/_navbar.scss");
+@import url("../src/styles/block/_home.scss");
 
 // PALETTE
 :root {
@@ -24,65 +19,4 @@ a {
   --highlight-light: #c2301e;
   --highlight-dark: #641d14;
   --crawl-color: #f4ad0b;
-}
-
-//FONT FACE
-@font-face {
-  font-family: "Futura";
-  font-display: block;
-  src: url("../public/fonts/futura.ttf");
-}
-@font-face {
-  font-family: "Star Wars";
-  font-display: block;
-  src: url("../public/fonts/starwars.ttf");
-}
-@font-face {
-  font-family: "Episode";
-  font-display: block;
-  src: url("../public/fonts/gothic.otf") format("opentype");;
-}
-@font-face {
-  font-family: "Aurek";
-  font-display: block;
-  src: url("../public/fonts/aurek.ttf");
-}
-@font-face {
-  font-family: "Crawl";
-  font-display: block;
-  src: url("../public/fonts/crawl.ttf");
-}
-
-@font-face {
-  font-family: "LongTime";
-  font-display: block;
-  src: url("../public/fonts/longtime.ttf");
-}
-
-//GLOBAL STYLES
-body {
-  color: var(--text-color);
-  font-family: "Futura", sans-serif;
-}
-
-// SCROLLBAR
-body::-webkit-scrollbar {
-  width: 8px;
-}
-
-body::-webkit-scrollbar-track {
-  background: var(--bg-color);
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: var(--crawl-color);
-  border: 3px solid var(--crawl-color);
-}
-
-strong {
-  color: var(--crawl-color);
-}
-
-p{
-  font-size: 18px;
 }

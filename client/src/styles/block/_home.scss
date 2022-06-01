@@ -1,0 +1,60 @@
+.home {
+  height: 85vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3%;
+  background-image: url("../../../public/ui/sithborder.svg");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  @media screen and (max-width: 1100px) {
+    background-image: none;
+  }
+
+  .showcase {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 20%;
+
+      @media screen and (max-width: 600px) {
+        width: 60%;
+      }
+    }
+  }
+
+  .description {
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    img {
+      width: 70%;
+      animation: pulse 2s infinite;
+      @keyframes pulse {
+        0% {
+          filter: grayscale(0%);
+        }
+
+        70% {
+          filter: grayscale(80%);
+        }
+
+        100% {
+          filter: grayscale(0%);
+        }
+      }
+    }
+    h3 {
+      font-family: "Aurek", serif;
+      color: var(--aurubesh-brown);
+      text-align: center;
+    }
+  }
+}
