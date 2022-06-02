@@ -10,7 +10,6 @@ const CharacterSchema = new Schema(
     role: { type: String, required: false },
     image: { type: String, required: true },
     portrait: {type: String, required: true},
-    family: { type: Array, required: false },
     description: {type: String, required: false}
   },
   { timestamps: true }
