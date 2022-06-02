@@ -1,8 +1,9 @@
 .character-figure {
   display: flex;
   height: 74vh;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
+  justify-content: space-around;
   align-items: center;
   gap: 10px;
   overflow: scroll;
@@ -21,4 +22,8 @@
 .character-figure::-webkit-scrollbar-thumb {
   background-color: var(--crawl-color);
   border: 3px solid var(--crawl-color);
+}
+
+.character-description {
+  width: 45%;
 }

@@ -28,7 +28,7 @@ const MovieDetail = () => {
             <p>{movie.crawl}</p>
           </figcaption>
           <div className="video-container">
-            <div class="youtube-container">
+            <div className="youtube-container">
               <iframe
                 src={`https://www.youtube.com/embed/${movie.trailer}?autoplay=1&mute=1&loop=1&color=white&controls=0&modestbranding=1&playsinline=1&rel=0`}
                 title={movie.name}
