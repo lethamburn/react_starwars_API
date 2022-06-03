@@ -20,9 +20,16 @@ const MovieDetail = () => {
   return (
     <>
       {movie ? (
-        <figure className="movie-detail">
+        <figure
+          className="movie-detail"
+          style={{
+            backgroundImage: "url(" + movie.background + ")",
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+          }}
+        >
           <figcaption>
-            <h2>Episode {movie.number}</h2>
             <h3>{movie.name}</h3>
             <img src={movie.poster} alt={movie.name} />
             <p>{movie.crawl}</p>
@@ -32,9 +39,9 @@ const MovieDetail = () => {
               <iframe
                 src={`https://www.youtube.com/embed/${movie.trailer}?autoplay=1&mute=1&loop=1&color=white&controls=0&modestbranding=1&playsinline=1&rel=0`}
                 title={movie.name}
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
             </div>
           </div>

@@ -1,0 +1,75 @@
+.character-figure {
+    display: flex;
+    height: 74vh;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+
+    h2{
+      font-family: "Gothic", serif;
+      text-transform: uppercase;
+    }
+  }
+  
+  .character-figure::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .character-figure::-webkit-scrollbar-track {
+    background: var(--vader-black);
+  }
+  
+  .character-figure::-webkit-scrollbar-thumb {
+    background-color: var(--crawl-yellow);
+    border: 3px solid var(--crawl-yellow);
+  }
+  
+  .character-description {
+    background-image: url("../../../public/ui/sithborderver.png");
+    background-position: center;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:90%;
+  
+  
+  }
+  
+  .character-description-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 60px;
+    gap:20px;
+    height:75%;
+    overflow: scroll;
+    overflow-x: hidden;
+
+    h3 {
+      font-family: "Aurek", serif;
+      color: var(--aurubesh-grey);
+      text-align: center;
+    }
+    p{
+      padding: 0px 30px;
+      text-align: justify;
+    }
+  }
+  
+  .character-description-container::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .character-description-container::-webkit-scrollbar-track {
+    background: none;
+  }
+  
+  .character-description-container::-webkit-scrollbar-thumb {
+    background-color: var(--crawl-yellow);
+    border: 3px solid var(--crawl-yellow);
+  }
+  
+  

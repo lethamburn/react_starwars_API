@@ -11,7 +11,8 @@ const MoviesSchema = new Schema(
     poster: { type: String, required: true },
     crawl: { type: String, required: false },
     filmMakers: { type: Array, required: false },
-    trailer: {type: String, required: true}
+    trailer: {type: String, required: true},
+    background: {type: String, requierd: false}
   },
   { timestamps: true }
 );

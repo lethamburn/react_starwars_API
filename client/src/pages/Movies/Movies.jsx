@@ -3,7 +3,6 @@ import { SWContext } from "../../context/context";
 import { Fade } from "react-awesome-reveal";
 import MovieCard from "../../components/MovieCard/MovieCard";
 import Loader from "../../components/Loader/Loader";
-import "./Movies.scss";
 
 const Movies = () => {
   const { movies, moviesLoaded, setMoviesLoaded } = useContext(SWContext);

@@ -3,8 +3,8 @@ import { SWContext } from "../../context/context";
 import { Fade } from "react-awesome-reveal";
 import Loader from "../../components/Loader/Loader";
 import CharacterCard from "../../components/CharacterCard/CharacterCard";
-import "./Characters.scss";
 import CharacterDisplay from "../../components/CharacterDisplay/CharacterDisplay";
+
 const Characters = () => {
   const { characters, charactersLoaded, setCharactersLoaded } =
     useContext(SWContext);
