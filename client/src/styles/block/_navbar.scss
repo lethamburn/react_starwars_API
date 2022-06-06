@@ -27,20 +27,6 @@
     }
   }
 }
-.controlbar {
-  padding-top: 14px;
-  width: 20%;
-
-  transition: all 4s;
-
-  &:hover {
-  transform: scale(1.05);
-  }
-
-  @media screen and (max-width: 1096px) {
-    display: none
-  }
-}
 .list {
   display: flex;
   gap: 30px;

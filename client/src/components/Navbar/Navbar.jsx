@@ -9,7 +9,6 @@ const Navbar = () => {
         <Link to="/" className="logo">
           <img src="./icons/navbar.svg" alt="Go Home interface button" />
         </Link>
-        <img className="controlbar" src="./ui/controlbar.svg" alt="Death Star Control Bar" />
         <input type="checkbox" id="toggler" />
         <label htmlFor="toggler">
           <i className="ri-menu-line"></i>

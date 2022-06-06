@@ -1,9 +1,9 @@
-import "./App.scss";
 import React, { useState, useEffect } from "react";
 import Home from "./pages/Home/Home";
 import Characters from "./pages/Characters/Characters";
 import Movies from "./pages/Movies/Movies";
 import Planets from "./pages/Planets/Planets";
+import PlanetDetail from "./pages/PlanetDetail/PlanetDetail";
 import Timeline from "./pages/Timeline/Timeline";
 import About from "./pages/About/About";
 import MovieDetail from "./pages/MovieDetail/MovieDetail";
@@ -22,26 +22,27 @@ const App = () => {
   return (
     <>
       <Router>
-      <SWContextProvider>
-      {loaded ? (
-        <div className="App">
-        <Navbar />
-        <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/characters" element={<Characters />} />
-            <Route path="/movies" element={<Movies />} />
-            <Route path="/movies/:name" element={<MovieDetail />} />
-            <Route path="/planets" element={<Planets />} />
-            <Route path="/timeline" element={<Timeline />} />
-            <Route path="/about" element={<About />} />
-          </Routes>
-        </div>
-      ) : (
-        <>
-          <SplashScreen />
-        </>
-      )}
-      </SWContextProvider>
+        <SWContextProvider>
+          {loaded ? (
+            <div className="App">
+              <Navbar />
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/characters" element={<Characters />} />
+                <Route path="/movies" element={<Movies />} />
+                <Route path="/movies/:name" element={<MovieDetail />} />
+                <Route path="/planets" element={<Planets />} />
+                <Route path="/planets/:name" element={<PlanetDetail />} />
+                <Route path="/timeline" element={<Timeline />} />
+                <Route path="/about" element={<About />} />
+              </Routes>
+            </div>
+          ) : (
+            <>
+              <SplashScreen />
+            </>
+          )}
+        </SWContextProvider>
       </Router>
     </>
   );

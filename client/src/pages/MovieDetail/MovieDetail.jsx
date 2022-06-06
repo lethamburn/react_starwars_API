@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useParams, Link } from "react-router-dom";
-import "./MovieDetail.scss";
 import Loader from "../../components/Loader/Loader";
 import Button from "../../layout/Button/Button";
 const MovieDetail = () => {

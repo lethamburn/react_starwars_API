@@ -1,12 +1,12 @@
+//RESET
+@import url("../src/styles/utils/_reset.scss");
 //PALETTE AND FONTS
 @import url("../src/styles/utils/_palette.scss");
 @import url("../src/styles/utils/_fonts.scss");
-//RESET
-@import url("../src/styles/utils/_reset.scss");
 //GLOBAL STYLES
-
-//BLOCK STYLES
 @import url("../src/styles/block/_global.scss");
+//BLOCK STYLES
+@import url("../src/styles/block/_button.scss");
 @import url("../src/styles/block/_background.scss");
 @import url("../src/styles/block/_navbar.scss");
 @import url("../src/styles/block/_loader.scss");
@@ -17,13 +17,4 @@
 @import url("../src/styles/block/_character-portrait.scss");
 @import url("../src/styles/block/_movies.scss");
 @import url("../src/styles/block/_movie-card.scss");
-
-// PALETTE
-:root {
-  --bg-color: #222d2e;
-  --text-color: #d0ddd0;
-  --border-color: #5e8898;
-  --highlight-light: #c2301e;
-  --highlight-dark: #641d14;
-  --crawl-color: #f4ad0b;
-}
+@import url("../src/styles/block/_movie-detail.scss")

@@ -37,8 +37,24 @@ const getPlanetById = async (req, res, next) => {
     return next(err);
   }
 };
+
+const getPlanetByName = async (req, res, next) => {
+  const { name } = req.params;
+
+  try {
+    const planetByName = await Planet.find({ name: name });
+    return res.json({
+      status: 200,
+      message: "OK",
+      data: { planet: planetByName },
+    });
+  } catch (error) {
+    return next(error);
+  }
+};
 //Exportamos las funciones
 module.exports = {
   getAllPlanets,
   getPlanetById,
+  getPlanetByName,
 };

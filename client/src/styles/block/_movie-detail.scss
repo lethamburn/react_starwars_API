@@ -1,0 +1,84 @@
+.movie-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin: 10px 5%;
+    height: 100%;
+    overflow: hidden;
+    overflow-x: hidden;
+    text-align: center;
+    border: 3px solid var(--crawl-yellow);
+    border-radius: 3px;
+    image-rendering: auto;
+  
+    .video-container {
+      .youtube-container {
+        overflow: hidden;
+        width: 100%;
+        aspect-ratio: 16/9;
+        pointer-events: none;
+        margin: 20px 0;
+        border: 3px solid var(--crawl-yellow);
+        border-radius: 3px;
+        padding: 10px;
+        background-color: black;
+        iframe {
+          width: 300%;
+          height: 100%;
+          margin-left: -100%;
+        }
+      }
+    }
+  
+    h3 {
+      text-transform: uppercase;
+      font-family: "Gothic", sans-serif;
+      font-size: 2rem;
+      font-weight: normal;
+      padding: 10px;
+      color: var(--crawl-yellow);
+    }
+  
+    img {
+      padding: 10px;
+      margin: 8px 0;
+      width: 230px;
+      transition: all 0.2s ease-in-out;
+      border: 3px solid var(--crawl-yellow);
+    }
+  
+    figcaption {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      border-left: 3px solid var(--crawl-yellow);
+      border-right: 3px solid var(--crawl-yellow);
+      border-radius: 3px;
+      background-color: var(--vader-black-transparent);
+      padding: 20px 30px;
+  
+      p {
+        text-align: justify;
+        white-space: pre-wrap;
+        color: var(--crawl-yellow);
+        font-family: "Crawl", sans-serif;
+        font-weight: normal;
+  
+        padding: 0 10% ;
+      }
+    }
+  
+    p {
+      color: var(--text-color);
+    }
+  
+    span {
+      margin-top: 30px;
+    }
+  }
+  
+  
+  
