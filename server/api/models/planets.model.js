@@ -10,7 +10,8 @@ const PlanetsSchema = new Schema(
     suns: { type: Number, required: false },
     region: { type: String, required: false },
     size: { type: Number, required: false },
-    coordinates: { type: String, required: false },
+    description: { type: String, required: false },
+    background: {type: String, required: false}
   },
   { timestamps: true }
 );
