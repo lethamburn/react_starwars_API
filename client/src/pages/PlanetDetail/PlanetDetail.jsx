@@ -24,10 +24,12 @@ const PlanetDetail = () => {
             <h3>{planet.name}</h3>
             <img src={planet.image} alt={planet.name} />
             <p>{planet.region}</p>
+            <p>{planet.description}</p>
+            <img src={planet.background} alt={planet.name} />
           </figcaption>
           <Link to="/planets">
-              <Button sectionName="Back to Planets" />
-            </Link>
+            <Button sectionName="Back to Planets" />
+          </Link>
         </figure>
       ) : (
         <Loader />
