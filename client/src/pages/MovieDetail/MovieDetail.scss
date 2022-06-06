@@ -10,8 +10,7 @@
   text-align: center;
   border: 3px solid var(--crawl-yellow);
   border-radius: 3px;
-  image-rendering: pixelated;
-  -ms-interpolation-mode: nearest-neighbor;
+  image-rendering: auto;
 
   .video-container {
     .youtube-container {
