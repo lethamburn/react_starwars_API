@@ -25,16 +25,16 @@ const MovieDetail = () => {
           style={{
             backgroundImage: "url(" + movie.background + ")",
             backgroundPosition: "center",
-            backgroundSize: "cover",
+            backgroundSize: "100% 100%",
             backgroundRepeat: "no-repeat",
+            backgroundAttachment: "fixed"
           }}
         >
           <figcaption>
             <h3>{movie.name}</h3>
             <img src={movie.poster} alt={movie.name} />
             <p>{movie.crawl}</p>
-          </figcaption>
-          <div className="video-container">
+            <div className="video-container">
             <div className="youtube-container">
               <iframe
                 src={`https://www.youtube.com/embed/${movie.trailer}?autoplay=1&mute=1&loop=1&color=white&controls=0&modestbranding=1&playsinline=1&rel=0`}
@@ -60,6 +60,8 @@ const MovieDetail = () => {
               <Button sectionName="Back to Movies" />
             </Link>
           </span>
+          </figcaption>
+         
         </figure>
       ) : (
         <Loader />

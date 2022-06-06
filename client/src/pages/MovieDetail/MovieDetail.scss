@@ -3,14 +3,15 @@
   flex-direction: column;
   align-items: center;
   color: white;
- margin: 20px 10%;
-  height: 75vh;
-  overflow: scroll;
+  margin: 10px 5%;
+  height: 100%;
+  overflow: hidden;
   overflow-x: hidden;
   text-align: center;
   border: 3px solid var(--crawl-yellow);
   border-radius: 3px;
-  padding: 20px 0;
+  image-rendering: pixelated;
+  -ms-interpolation-mode: nearest-neighbor;
 
   .video-container {
     .youtube-container {
@@ -38,16 +39,11 @@
     font-size: 2rem;
     font-weight: normal;
     padding: 10px;
-    border: 3px solid var(--crawl-yellow);
     color: var(--crawl-yellow);
-    background-color: black;
   }
 
   img {
     padding: 20px;
-    border: 3px solid var(--crawl-color);
-    border-radius: 3px;
-    background-color: black;
     margin: 8px 0;
     width: 230px;
     transition: all 0.2s ease-in-out;
@@ -59,7 +55,11 @@
     flex-direction: column;
     align-items: center;
     gap: 14px;
-    margin-bottom: 20px;
+    border-left: 3px solid var(--crawl-yellow);
+    border-right: 3px solid var(--crawl-yellow);
+    border-radius: 3px;
+    background-color: var(--vader-black-transparent);
+    padding: 20px 30px;
 
     p {
       text-align: justify;
@@ -67,10 +67,8 @@
       color: var(--crawl-yellow);
       font-family: "Crawl", sans-serif;
       font-weight: normal;
-      border: 3px solid var(--crawl-yellow);
-      border-radius: 3px;
+
       padding: 30px;
-      background-color: black;
     }
   }
 
@@ -83,15 +81,4 @@
   }
 }
 
-.movie-detail::-webkit-scrollbar {
-  width: 8px;
-}
 
-.movie-detail::-webkit-scrollbar-track {
-  background: var(--bg-color);
-}
-
-.movie-detail::-webkit-scrollbar-thumb {
-  background-color: var(--crawl-color);
-  border: 3px solid var(--crawl-color);
-}
